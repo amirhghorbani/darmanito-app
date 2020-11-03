@@ -1,0 +1,32 @@
+.sec1__content__btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.sec1__btn {
+    width: 70%;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn__1 {
+    color: white;
+    background-color: #1894FF;
+    border: none;
+
+    &:hover {
+         color: #1894FF;
+    background-color: #E6F3FF;
+    }
+}
+.btn__2 {
+    color: #1894FF;
+    background-color: white;
+    border: 1px solid #1894FF;
+    margin-top: 16px;
+    &:hover {
+        background-color: #E6F3FF;
+    }
+}

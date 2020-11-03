@@ -1,0 +1,26 @@
+@media screen and (min-width: 320px) {
+    .sec__3__box {
+        width: 30%;
+        height: 105px;
+        border: none;
+        border-radius: 25px;
+        -webkit-box-shadow: 0px 0px 25px 0px rgba(35,97,181,0.2); 
+        box-shadow: 0px 0px 25px 0px rgba(35,97,181,0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec__3__box img {
+        width: 45px;
+        height: 43px;
+    }
+    .sec__3__box p {
+        color: #2361B5;
+        font-size: 12px;
+    }
+    .deactive {
+        filter: grayscale(100%);
+        opacity: .5;
+    }
+}
