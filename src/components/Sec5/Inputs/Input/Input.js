@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import DangerIcon from '../../../../assets/images/danger-icon.svg'
+
  class Input extends Component {
 
     state = {
@@ -17,14 +19,27 @@ import React, { Component } from 'react'
     }
      
     render() {
+
+        const dangerText = (
+            <div style={{display: "flex"}}>
+                <img src={DangerIcon} alt='danger' />
+                <p style={{color : 'red', fontSize : '12px', fontWeight : 'lighter', marginRight : '13.5px'}}>
+                شماره همراه صحیح  نیست
+                </p>
+            </div>
+        )
+
         return (
-            <div className='input'>
-                <input type='text' 
-                 placeholder='شماره همراه را وارد کنید'
-                 onChange={this.changeHandler}
-                 className={this.state.inputIsValid !== null ? (this.state.inputIsValid ? 'success' : 'danger') : ''}
-                 />
-                <button>بفرست</button>
+            <div>
+                <div className='input'>
+                    <input type='text' 
+                    placeholder='شماره همراه را وارد کنید'
+                    onChange={this.changeHandler}
+                    className={this.state.inputIsValid !== null ? (this.state.inputIsValid ? 'success' : 'danger') : ''}
+                    />
+                    <button>بفرست</button>
+                </div>
+                {this.state.inputIsValid !== null ? (!this.state.inputIsValid ? dangerText : '') : ''}
             </div>
         )
     }

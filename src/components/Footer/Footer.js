@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../sass/Sec8.scss'
+import '../../sass/Footer.scss'
 import Logo from '../../assets/images/header-logo.svg'
 
 import InstaLogo from '../../assets/images/Icons - Facebook Copy.svg'
 import FacebookLogo from '../../assets/images/Icons - Facebook Copy 2.svg'
 import LinkedInLogo from '../../assets/images/linkedin.svg'
-function Sec8() {
+function Footer() {
     return (
         <div className='sec__8'>
             <img src={Logo} alt='logo' />
@@ -24,4 +24,4 @@ function Sec8() {
     )
 }
 
-export default Sec8
+export default Footer

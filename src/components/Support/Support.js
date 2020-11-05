@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../sass/Sec7.scss'
+import '../../sass/Support.scss'
 import HeadPhone from '../../assets/images/support-icon.svg'
 
-function Sec7() {
+function Support() {
     return (
         <div className='sec__7'>
             <div className='sec__7__text'>
@@ -17,4 +17,4 @@ function Sec7() {
     )
 }
 
-export default Sec7
+export default Support
