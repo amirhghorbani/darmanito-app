@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
-import "../../sass/Header.scss";
+import headerStyle from '../Header/Header.module.scss'
+
+// import "../../sass/Header.scss";
 
 import Logo from "../../assets/images/header-logo.svg";
 import DropDown from "../../assets/images/dropdown-icon.svg";
@@ -49,14 +51,25 @@ class Header extends Component {
 
   render() {
     return (
-      <div className="header">
-        <div className="header__logos">
+      <div className={headerStyle.header}>
+        <div className={headerStyle.header__logos}>
           <a href="#">
             <img src={Logo} alt="header" />
           </a>
-          <a onClick={this.iconchangeHandler} href="#">
+          <a className={headerStyle.dropIcon} onClick={this.iconchangeHandler} href="#">
             <img src={this.state.isClicked ? DropDown : DropUp} alt="header" />
           </a>
+          <nav>
+            <ul>
+              <a href=''><li>صفحه اصلی</li></a>
+              <a href=''><li>درباره ما</li></a>
+              <a href=''><li>تماس باما</li></a>
+              <a href=''><li>عضویت داروخانه ها</li></a>
+            </ul>
+          </nav>
+         
+            <button className={headerStyle.download__btn}>دانلود درمانیتو</button>
+          
         </div>
         {this.state.show ? dropDiv : null}
       </div>

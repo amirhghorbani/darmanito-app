@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Header from "../../components/Header/Header";
 import Sec1 from "../../components/Sec1/Sec1";
@@ -11,6 +11,7 @@ import Support from "../../components/Support/Support";
 import Footer from "../../components/Footer/Footer";
 
 function MainLanding() {
+
   return (
     <div className="container" style={{ overflow: "hidden" }}>
       <Header />
