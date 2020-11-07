@@ -1,0 +1,15 @@
+<svg id="Icon_-_Warning--Filled_16" data-name="Icon - Warning--Filled / 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_5421" data-name="Path 5421" d="M430-951a9.111,9.111,0,0,0-9,9,9.111,9.111,0,0,0,9,9,9.026,9.026,0,0,0,9-9A8.945,8.945,0,0,0,430-951Zm-.643,3.857h1.286v6.429h-1.286ZM430-936.6a1.106,1.106,0,0,1-1.029-1.029A1.014,1.014,0,0,1,430-938.657a1.106,1.106,0,0,1,1.029,1.029A1.106,1.106,0,0,1,430-936.6Z" transform="translate(0 0)" fill="#fe5656" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_5420" data-name="Path 5420" d="M192-881.286H562.286V-988H192Z" transform="translate(-192 988)" fill="#fe5656"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5461" data-name="Group 5461" transform="translate(-421 951)" clip-path="url(#clip-path)">
+    <g id="Group_5460" data-name="Group 5460" transform="translate(126.571 -998.571)" clip-path="url(#clip-path-2)">
+      <path id="Path_5419" data-name="Path 5419" d="M416-956h30.857v30.857H416Z" transform="translate(-128 997.143)" fill="#fe5656"/>
+    </g>
+  </g>
+</svg>

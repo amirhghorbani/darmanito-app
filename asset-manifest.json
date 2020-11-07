@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/darmanito-app/static/css/main.5d8f72a5.chunk.css",
-    "main.js": "/darmanito-app/static/js/main.9f8e686c.chunk.js",
-    "main.js.map": "/darmanito-app/static/js/main.9f8e686c.chunk.js.map",
+    "main.css": "/darmanito-app/static/css/main.2143b245.chunk.css",
+    "main.js": "/darmanito-app/static/js/main.462e6036.chunk.js",
+    "main.js.map": "/darmanito-app/static/js/main.462e6036.chunk.js.map",
     "runtime-main.js": "/darmanito-app/static/js/runtime-main.8c54f13a.js",
     "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.8c54f13a.js.map",
-    "static/js/2.60e95bf9.chunk.js": "/darmanito-app/static/js/2.60e95bf9.chunk.js",
-    "static/js/2.60e95bf9.chunk.js.map": "/darmanito-app/static/js/2.60e95bf9.chunk.js.map",
+    "static/js/2.0f0bebb0.chunk.js": "/darmanito-app/static/js/2.0f0bebb0.chunk.js",
+    "static/js/2.0f0bebb0.chunk.js.map": "/darmanito-app/static/js/2.0f0bebb0.chunk.js.map",
     "static/js/3.7bc623cc.chunk.js": "/darmanito-app/static/js/3.7bc623cc.chunk.js",
     "static/js/3.7bc623cc.chunk.js.map": "/darmanito-app/static/js/3.7bc623cc.chunk.js.map",
     "index.html": "/darmanito-app/index.html",
-    "static/css/main.5d8f72a5.chunk.css.map": "/darmanito-app/static/css/main.5d8f72a5.chunk.css.map",
-    "static/js/2.60e95bf9.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.60e95bf9.chunk.js.LICENSE.txt",
+    "static/css/main.2143b245.chunk.css.map": "/darmanito-app/static/css/main.2143b245.chunk.css.map",
+    "static/js/2.0f0bebb0.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.0f0bebb0.chunk.js.LICENSE.txt",
     "static/media/Card Bacground.727ec2fc.svg": "/darmanito-app/static/media/Card Bacground.727ec2fc.svg",
     "static/media/Card-doc.fa832516.svg": "/darmanito-app/static/media/Card-doc.fa832516.svg",
     "static/media/Card-play.7cb6b114.svg": "/darmanito-app/static/media/Card-play.7cb6b114.svg",
     "static/media/Icons - Facebook Copy 2.d4eae56b.svg": "/darmanito-app/static/media/Icons - Facebook Copy 2.d4eae56b.svg",
     "static/media/Icons - Facebook Copy.77fccdea.svg": "/darmanito-app/static/media/Icons - Facebook Copy.77fccdea.svg",
     "static/media/bazar-btn.441ea6cc.svg": "/darmanito-app/static/media/bazar-btn.441ea6cc.svg",
+    "static/media/danger-icon.03d21b53.svg": "/darmanito-app/static/media/danger-icon.03d21b53.svg",
+    "static/media/doc-background.4492b5a7.svg": "/darmanito-app/static/media/doc-background.4492b5a7.svg",
     "static/media/dropdown-icon.8040c988.svg": "/darmanito-app/static/media/dropdown-icon.8040c988.svg",
     "static/media/dropup-icon.7e1658bc.svg": "/darmanito-app/static/media/dropup-icon.7e1658bc.svg",
     "static/media/header-logo.0623ce3b.svg": "/darmanito-app/static/media/header-logo.0623ce3b.svg",
@@ -33,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8c54f13a.js",
-    "static/js/2.60e95bf9.chunk.js",
-    "static/css/main.5d8f72a5.chunk.css",
-    "static/js/main.9f8e686c.chunk.js"
+    "static/js/2.0f0bebb0.chunk.js",
+    "static/css/main.2143b245.chunk.css",
+    "static/js/main.462e6036.chunk.js"
   ]
 }
