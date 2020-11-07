@@ -1,0 +1,71 @@
+@import '../sass/variables';
+
+@mixin beforeText {
+    content: '';
+    height: 24px;
+    border: 2px solid $greenColor;
+    border-radius: 10px;
+    margin-left: 16.5px;
+};
+
+@mixin buttonSizes {
+    width: 15%;
+    height: 52px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@mixin primaryButton {
+    @include buttonSizes;
+    color: white;
+    background-color: $primaryColor;
+    border: none;
+
+    &:hover {
+         color:$primaryColor;
+         background-color: $cloudyColor;
+    }
+}
+
+@mixin commonButton {
+    @include buttonSizes;
+    color: $primaryColor;
+    background-color: white;
+    border: $borderPrimary;
+    margin-top: 16px;
+
+    &:hover {
+        background-color: $cloudyColor;
+    }
+}
+
+@mixin ghostButton {
+    @include buttonSizes;
+    background-color: $cloudyColor;
+    color: $primaryColor;
+    border: none;
+} 
+
+@mixin liTag {
+    list-style: none;
+    border: 2px solid white;
+}
+
+@mixin aTag {
+    text-decoration: none;
+    color: black; 
+    font-weight: lighter;
+}
+
+@mixin hoverIcon {
+    color: $primaryColor;
+    border-bottom: 2px solid $primaryColor;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
