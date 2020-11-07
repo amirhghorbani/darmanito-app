@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../sass/Footer.scss'
+import '../../assets/sass/Footer.scss'
 import Logo from '../../assets/images/header-logo.svg'
 
 import InstaLogo from '../../assets/images/Icons - Facebook Copy.svg'

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../sass/Support.scss'
+import '../../assets/sass/Support.scss'
 import HeadPhone from '../../assets/images/support-icon.svg'
 
 function Support() {

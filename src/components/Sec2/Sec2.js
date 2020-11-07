@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../sass/Sec2.scss'
+import '../../assets/sass/Sec2.scss'
 import Sec2ImgBack from '../../assets/images/Card Bacground.svg'
 import Sec2ImgDoc from '../../assets/images/Card-doc.svg'
 import Sec2ImgPlay from '../../assets/images/Card-play.svg'

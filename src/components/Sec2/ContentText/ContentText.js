@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderTitle from '../../Sec3/HeaderTitle/HeaderTitle'
-import '../../../sass/ContentText.scss'
+import '../../../assets/sass/ContentText.scss'
 
 function ContentText() {
     return (

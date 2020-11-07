@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../sass/Sec6.scss'
+import '../../assets/sass/Sec6.scss'
 import Sec6Img from './Sec6Img/Sec6Img'
 import Sec6Input from './Sec6Input/Sec6Input'
 import Sec6Text from './Sec6Text/Sec6Text'

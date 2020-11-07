@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../sass/HeaderTitle.scss'
+import '../../../assets/sass/HeaderTitle.scss'
 
 function HeaderTitle({ text }) {
     return (

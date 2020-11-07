@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../../../../assets/sass/_Box.scss'
+
 
 function Box({ src, text, className }) {
     return (

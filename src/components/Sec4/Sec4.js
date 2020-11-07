@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../sass/Sec4.scss'
+import '../../assets/sass/Sec4.scss'
 import ProgressBar from './ProgressBar/ProgressBar'
 import ProgressSteps from './ProgressSteps/ProgressSteps'
 

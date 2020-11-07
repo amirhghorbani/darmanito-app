@@ -1,6 +1,6 @@
 import React from 'react'
 import Box from '../Boxes/Box/Box'
-import '../../../sass/Boxes.scss'
+import '../../../assets/sass/Boxes.scss'
 import PharmImg from '../../../assets/images/pharmacy.svg'
 import MarketImg from '../../../assets/images/market.svg'
 import StethoscopeImg from '../../../assets/images/stethoscope.svg'

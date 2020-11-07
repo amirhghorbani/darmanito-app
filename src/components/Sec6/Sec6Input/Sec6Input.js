@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import DangerIcon from "../../../assets/images/danger-icon.svg";
 
-import "../../../sass/Sec5.scss";
+import "../../../assets/sass/Sec5.scss";
 
 function Sec6Input() {
   const [input, setInput] = useState("");

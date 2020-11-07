@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../sass/Sec3.scss'
+import '../../assets/sass/Sec3.scss'
 import Boxes from './Boxes/Boxes'
 import HeaderTitle from './HeaderTitle/HeaderTitle'
 

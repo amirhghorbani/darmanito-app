@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../../../sass/Button.scss'
+import styles from '../../Sec1.module.scss'
 
 function Sec1Buttons() {
     return (
-        <div className='sec1__content__btns'>
-            <button className='sec1__btn btn__1'>دانلود مستقیم اپ</button>
-            <button className='sec1__btn btn__2'>عضویت داروخانه ها</button>
+        <div className={styles.btns}>
+            <button className={styles.btn1}>دانلود مستقیم اپ</button>
+            <button className={styles.btn2}>عضویت داروخانه ها</button>
         </div>
     )
 }
