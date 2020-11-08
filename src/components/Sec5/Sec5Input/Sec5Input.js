@@ -2,11 +2,12 @@ import React, { useState } from "react";
 
 import DangerIcon from "../../../assets/images/danger-icon.svg";
 
-import styles from '../../Sec6/Sec6.module.scss'
+import styles from '../../Sec5/Sec5.module.scss'
 
-import "../../../assets/sass/Sec5.scss";
 
-function Sec6Input() {
+// import "../../../assets/sass/Sec5.scss";
+
+function Sec5Input() {
   const [input, setInput] = useState("");
   const [inputIsValid, setInputIsValid] = useState(null);
 
@@ -57,4 +58,4 @@ function Sec6Input() {
   );
 }
 
-export default Sec6Input;
+export default Sec5Input;

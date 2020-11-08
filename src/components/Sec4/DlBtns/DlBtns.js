@@ -2,7 +2,7 @@ import React from 'react'
 import BazarBtn from '../../../assets/images/bazar-btn.svg'
 import SibBtn from '../../../assets/images/sib-btn.svg'
 
-import styles from '../Sec5.module.scss'
+import styles from '../Sec4.module.scss'
 
 
 function DlBtns() {

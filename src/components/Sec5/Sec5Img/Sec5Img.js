@@ -1,7 +1,7 @@
 import React from 'react'
 import HealthDocImg from '../../../assets/images/health-doc.svg'
 
-function Sec6Img() {
+function Sec5Img() {
     return (
         <div className='sec__6__img'>
             <img src={HealthDocImg} alt='doc' />
@@ -9,4 +9,4 @@ function Sec6Img() {
     )
 }
 
-export default Sec6Img
+export default Sec5Img

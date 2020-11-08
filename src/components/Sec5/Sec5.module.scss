@@ -1,231 +1,195 @@
 @import '../../assets/sass/styles.scss';
 
 @media screen and (min-width : 320px) {
-
-    .sec5 {
-        width: 100%;
-        height: 891px;
-        background-color: #0089FF;
-        margin-top: 61px;
+    .sec__6 {
+        width: 90%;
+        height: 550px;
+        border-radius: 15px;
+        margin: 116px auto;
+        -webkit-box-shadow: 0px 0px 25px 0px rgba(35,97,181,0.2); 
+        box-shadow: 0px 0px 25px 0px rgba(35,97,181,0.2);
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* align-content: center; */
-        justify-content: space-around;
-        .title {
+        justify-content: space-evenly;
+    
+        .sec__6__img {
+            width: 100%;
+            text-align: center;
+            img {
+                width: 80%;
+            }
+        }
+        .sec__6__text {
             width: 80%;
-            margin: 0 auto;
-            p {
+    
+            p:first-child {
                 font-weight: bold;
-                color: white;
+                color: #2361B5;
+    
+                &::before {
+                    content: '';
+                    height: 24px;
+                    border-radius: 15px;
+                    border: 2px solid #00DE9A;
+                    margin-left: 16px;
+                }
             }
             p:last-child {
-                font-size: 12px;
-                color: white;
-                line-height: 1.6rem;
                 font-weight: lighter;
+                font-size: 12px;
+                line-height: 1.6rem;
             }
         }
-        .inputs {
+        .sec__6__input {
             width: 80%;
-            margin: 0 auto;
-            height: 60px;
-    
-            .input {
-                position: relative;
-                width: 100%;
-                height: 54px;
-                border: none;
-                background-color: white;
-                border-radius: 10px;
+            background-color: #F9F9F9;
+            height: 55px;
+            border-radius: 10px;
+            position: relative;
 
-                .danger {
-                    border: 1px solid red !important;
-                }
-                .success {
-                    border: 1px solid #1894FF !important;
-                }
-    
-                input {
-                    position: absolute;
-                    width: 96%;
-                    height: 54px;
-                    background-color: white;
-                    border: 1px solid white;
-                    outline-style: none;
-                    border-radius: 10px;
-                    padding-right: 10px;
-        
-                    &::placeholder {
-                        padding-right: 10px;
-                        font-size: 12px;
-                    }
-                    &:focus {
-                        background-color: #F5F5F5; 
-                    }
-                }
-                button {
-                    position: absolute;
-                    left: 10px;
-                    top: 10px;
-                    font-size: 13px;
-                    background-color: #1894FF;
-                    border-radius: 10px;
-                    border: none;
-                    color: white;
-                    padding: 10px 23px 12px 25px;
-    
-                    &:hover {
-                        background-color: #E6F3FF;
-                        color:  #1894FF;
-                    }
-                }
-            }
-    
-        }
-        .download__btns {
-            width: 80%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            a {
-                margin-top: 20px;
-            }
-        }
-        .phone__img {
-            width: 100%;
-            img {
-                position: relative;
+            
+
+            .input {
                 width: 100%;
-                top: 35px;
+                height: 55px;
+
+                .success {
+                    border: 1px solid #2361B5;
+                }
+                .danger {
+                    border: 1px solid red;
+                }
+
+                 input {
+                width: 100%;
+                height: inherit;
+                background-color: #F9F9F9;
+                border: none;
+                outline-style: none;
+                border-radius: 10px;
+                padding-right: 10px;
+    
+                &::placeholder {
+                    padding-right: 15px;
+                    font-size: 12px;
+                }
             }
+            button {
+                font-size: 12px;
+                font-weight: bold;
+                color: white;
+                background-color: #1894FF;
+                padding: 12px 11px 13px 16px;
+                border: none;
+                border-radius: 10px;
+                position: absolute;
+                top: 20%;
+                left: 0;
+            }
+          }
+    
+           
         }
-    
-    
     }
 }
 
 @media screen and (min-width : 1024px) {
+    .sec__6 {
+        width: 75%;
+        height: 430px;
+        border-radius: 15px;
+        margin: 116px auto;
+        -webkit-box-shadow: 0px 0px 25px 0px rgba(35,97,181,0.2); 
+        box-shadow: 0px 0px 25px 0px rgba(35,97,181,0.2);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
 
-    .sec5 {
-        width: 100%;
-        height: 612px;
-        background-color: #0089FF;
-        display: block;
-        .whole {
-            width: 75%;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            .right {
-                height: 340px;
-                align-self: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+        .content__6 {
+            width: 40%;
 
-                .title {
-            width: 100%;
-            margin: 0 auto;
-            p:first-child {
-                font-size: 24px;
-            }
-            p {
-                font-weight: bold;
-                color: white;
-            }
-            p:last-child {
-                font-size: 16px;
-                color: white;
-                line-height: 1.6rem;
-                font-weight: lighter;
-            }
-                }
-                .inputs {
-            width: 100%;
-            margin: 0 auto;
-            height: 60px;
-    
-            .input {
-                position: relative;
+            .sec__6__text {
                 width: 100%;
-                height: 54px;
-                border: none;
-                background-color: white;
+        
+                p:first-child {
+                    font-weight: bold;
+                    color: #2361B5;
+                    font-size: 20px;
+        
+                    &::before {
+                        content: '';
+                        height: 24px;
+                        border-radius: 15px;
+                        border: 2px solid #00DE9A;
+                        margin-left: 16px;
+                    }
+                }
+                p:last-child {
+                    font-weight: lighter;
+                    font-size: 16px;
+                    line-height: 1.8rem;
+                }
+            }
+            .sec__6__input {
+                width: 100%;
+                background-color: #F9F9F9;
+                height: 55px;
                 border-radius: 10px;
-
-                .danger {
-                    border: 1px solid red !important;
-                }
-                .success {
-                    border: 1px solid #1894FF !important;
-                }
+                position: relative;
+                margin-top: 36px;
+                .input {
+                    width: 100%;
+                    height: 55px;
     
-                input {
-                    position: absolute;
-                    width: 98%;
-                    height: 54px;
-                    background-color: white;
-                    border: 1px solid white;
+                    .success {
+                        border: 1px solid #2361B5;
+                    }
+                    .danger {
+                        border: 1px solid red;
+                    }
+    
+                     input {
+                    width: 100%;
+                    height: inherit;
+                    background-color: #F9F9F9;
+                    border: none;
                     outline-style: none;
                     border-radius: 10px;
                     padding-right: 10px;
         
                     &::placeholder {
-                        padding-right: 10px;
+                        padding-right: 15px;
                         font-size: 16px;
-                    }
-                    &:focus {
-                        background-color: #F5F5F5; 
                     }
                 }
                 button {
-                    position: absolute;
-                    left: 10px;
-                    top: 8px;
                     font-size: 16px;
-                    background-color: #1894FF;
-                    border-radius: 10px;
-                    border: none;
+                    font-weight: bold;
                     color: white;
-                    padding: 13px 26px 13px 30px;
-                    cursor: pointer;
+                    background-color: #1894FF;
+                    padding: 14px 18px 11px 24px;
+                    border: none;
+                    border-radius: 10px;
+                    position: absolute;
+                    top: 15%;
+                    left: 0;
+                }
+              }
+        
+               
+            }
+
+        }
     
-                    &:hover {
-                        background-color: #E6F3FF;
-                        color:  #1894FF;
-                    }
-                }
-            }
-    
-                }
-                .download__btns {
-            width: 100%;
-            margin-top: 0px;
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row;
-            align-items: center;
-            a {
-                margin-top: 0px;
-                width: 49%;
-                img {
-                    width: 100%;
-                }
-            }
-                }
-            }
-            .phone__img {
-                width: 340px;
-                height: 620px;
-                img {
-                    width: 340px;
-                    height: 620px;
-                    object-fit: cover;
-                }
+        .sec__6__img {
+            width: 40%;
+            text-align: center;
+            img {
+                width: 100%;
             }
         }
+        
     }
 }

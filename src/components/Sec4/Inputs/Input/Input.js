@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import DangerIcon from "../../../../assets/images/danger-icon.svg";
 
-import styles from '../../Sec5.module.scss'
+import styles from '../../Sec4.module.scss'
 
 class Input extends Component {
   state = {

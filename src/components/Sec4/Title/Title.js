@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from '../Sec5.module.scss'
+import styles from '../Sec4.module.scss'
 
 function Title() {
     return (

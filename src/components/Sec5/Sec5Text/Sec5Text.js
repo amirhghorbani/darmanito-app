@@ -1,8 +1,8 @@
 import React from 'react'
 
-import styles from '../../Sec6/Sec6.module.scss'
+import styles from '../../Sec5/Sec5.module.scss'
 
-function Sec6Text() {
+function Sec5Text() {
     return (
         <div className={styles.sec__6__text}>
             <p>من داروخانه یا مرکز درمانی هستم</p>
@@ -11,4 +11,4 @@ function Sec6Text() {
     )
 }
 
-export default Sec6Text;
+export default Sec5Text;
