@@ -1,9 +1,11 @@
 import React from 'react'
-import '../../../assets/sass/HeaderTitle.scss'
+// import '../../../assets/sass/HeaderTitle.scss'
+
+import styles from '../HeaderTitle/HeaderTitle.module.scss'
 
 function HeaderTitle({ text }) {
     return (
-    <p className='bold'>{text}</p>
+    <p className={styles.bold}>{text}</p>
     )
 }
 

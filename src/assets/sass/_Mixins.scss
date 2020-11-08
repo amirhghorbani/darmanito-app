@@ -75,3 +75,14 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@mixin box {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: $boxShadow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

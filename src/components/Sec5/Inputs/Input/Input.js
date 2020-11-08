@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import DangerIcon from "../../../../assets/images/danger-icon.svg";
 
+import styles from '../../Sec5.module.scss'
+
 class Input extends Component {
   state = {
     input: "",
@@ -36,7 +38,7 @@ class Input extends Component {
 
     return (
       <div>
-        <div className="input">
+        <div className={styles.input}>
           <input
             type="text"
             placeholder="شماره همراه را وارد کنید"
@@ -44,8 +46,8 @@ class Input extends Component {
             className={
               this.state.inputIsValid !== null
                 ? this.state.inputIsValid
-                  ? "success"
-                  : "danger"
+                  ? styles.success
+                  : styles.danger
                 : ""
             }
           />

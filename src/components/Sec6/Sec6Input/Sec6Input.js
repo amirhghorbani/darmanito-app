@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import DangerIcon from "../../../assets/images/danger-icon.svg";
 
+import styles from '../../Sec6/Sec6.module.scss'
+
 import "../../../assets/sass/Sec5.scss";
 
 function Sec6Input() {
@@ -37,15 +39,15 @@ function Sec6Input() {
   );
 
   return (
-    <div className="sec__6__input">
-      <div className="input">
+    <div className={styles.sec__6__input}>
+      <div className={styles.input}>
         <input
           type="text"
           placeholder="شماره همراه را وارد کنید"
           onChange={changeHandler}
           value={input}
           className={
-            inputIsValid !== null ? (inputIsValid ? "success" : "danger") : ""
+            inputIsValid !== null ? (inputIsValid ? styles.success : styles.danger) : ""
           }
         />
         <button>ثبت نام سریع</button>

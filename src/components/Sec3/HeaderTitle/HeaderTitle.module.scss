@@ -1,0 +1,16 @@
+@import '../../../assets/sass/styles.scss';
+
+@media screen and (min-width : 320px) and (max-width : 768px) {
+    .bold {
+        font-size: 16px !important;
+    }
+}
+
+.bold {
+    font-weight: bold;
+    color: $epiblueColor;
+    font-size: $heading3;
+}
+p.bold::before {
+    @include beforeText;
+}

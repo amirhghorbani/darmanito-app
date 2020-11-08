@@ -1,0 +1,231 @@
+@import '../../assets/sass/styles.scss';
+
+@media screen and (min-width : 320px) {
+
+    .sec5 {
+        width: 100%;
+        height: 891px;
+        background-color: #0089FF;
+        margin-top: 61px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* align-content: center; */
+        justify-content: space-around;
+        .title {
+            width: 80%;
+            margin: 0 auto;
+            p {
+                font-weight: bold;
+                color: white;
+            }
+            p:last-child {
+                font-size: 12px;
+                color: white;
+                line-height: 1.6rem;
+                font-weight: lighter;
+            }
+        }
+        .inputs {
+            width: 80%;
+            margin: 0 auto;
+            height: 60px;
+    
+            .input {
+                position: relative;
+                width: 100%;
+                height: 54px;
+                border: none;
+                background-color: white;
+                border-radius: 10px;
+
+                .danger {
+                    border: 1px solid red !important;
+                }
+                .success {
+                    border: 1px solid #1894FF !important;
+                }
+    
+                input {
+                    position: absolute;
+                    width: 96%;
+                    height: 54px;
+                    background-color: white;
+                    border: 1px solid white;
+                    outline-style: none;
+                    border-radius: 10px;
+                    padding-right: 10px;
+        
+                    &::placeholder {
+                        padding-right: 10px;
+                        font-size: 12px;
+                    }
+                    &:focus {
+                        background-color: #F5F5F5; 
+                    }
+                }
+                button {
+                    position: absolute;
+                    left: 10px;
+                    top: 10px;
+                    font-size: 13px;
+                    background-color: #1894FF;
+                    border-radius: 10px;
+                    border: none;
+                    color: white;
+                    padding: 10px 23px 12px 25px;
+    
+                    &:hover {
+                        background-color: #E6F3FF;
+                        color:  #1894FF;
+                    }
+                }
+            }
+    
+        }
+        .download__btns {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            a {
+                margin-top: 20px;
+            }
+        }
+        .phone__img {
+            width: 100%;
+            img {
+                position: relative;
+                width: 100%;
+                top: 35px;
+            }
+        }
+    
+    
+    }
+}
+
+@media screen and (min-width : 1024px) {
+
+    .sec5 {
+        width: 100%;
+        height: 612px;
+        background-color: #0089FF;
+        display: block;
+        .whole {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .right {
+                height: 340px;
+                align-self: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .title {
+            width: 100%;
+            margin: 0 auto;
+            p:first-child {
+                font-size: 24px;
+            }
+            p {
+                font-weight: bold;
+                color: white;
+            }
+            p:last-child {
+                font-size: 16px;
+                color: white;
+                line-height: 1.6rem;
+                font-weight: lighter;
+            }
+                }
+                .inputs {
+            width: 100%;
+            margin: 0 auto;
+            height: 60px;
+    
+            .input {
+                position: relative;
+                width: 100%;
+                height: 54px;
+                border: none;
+                background-color: white;
+                border-radius: 10px;
+
+                .danger {
+                    border: 1px solid red !important;
+                }
+                .success {
+                    border: 1px solid #1894FF !important;
+                }
+    
+                input {
+                    position: absolute;
+                    width: 98%;
+                    height: 54px;
+                    background-color: white;
+                    border: 1px solid white;
+                    outline-style: none;
+                    border-radius: 10px;
+                    padding-right: 10px;
+        
+                    &::placeholder {
+                        padding-right: 10px;
+                        font-size: 16px;
+                    }
+                    &:focus {
+                        background-color: #F5F5F5; 
+                    }
+                }
+                button {
+                    position: absolute;
+                    left: 10px;
+                    top: 8px;
+                    font-size: 16px;
+                    background-color: #1894FF;
+                    border-radius: 10px;
+                    border: none;
+                    color: white;
+                    padding: 13px 26px 13px 30px;
+                    cursor: pointer;
+    
+                    &:hover {
+                        background-color: #E6F3FF;
+                        color:  #1894FF;
+                    }
+                }
+            }
+    
+                }
+                .download__btns {
+            width: 100%;
+            margin-top: 0px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            a {
+                margin-top: 0px;
+                width: 49%;
+                img {
+                    width: 100%;
+                }
+            }
+                }
+            }
+            .phone__img {
+                width: 340px;
+                height: 620px;
+                img {
+                    width: 340px;
+                    height: 620px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

@@ -6,6 +6,9 @@
         margin: 40px auto;
         @include flexCenterColumn;
 
+        img:first-child {
+            display: none;
+        }
         img {
             width: 100%;
         }
@@ -44,14 +47,36 @@
         align-items: center;
         justify-content: space-between;
 
-        img {
-            width: 413px;
-            height: 336px;
+        .image {
+            width: 60%;
+            position: relative;
+            height: 618px;
+            img:first-child {
+                position: absolute;
+                width: 943px;
+                height: 618px;
+                right: 100px;
+                display: block;
+            }
+            img:last-child {
+                width: 413px;
+                height: 336px;
+                position: absolute;
+                top: 20%;
+                left: 0;
+            }
         }
 
         .content {
             text-align: right;
             width: 40%;
+
+            h2 {
+                font-size: $heading1;
+            }
+            p {
+                font-size: $pMed;
+            }
 
             .btns {
                 flex-direction: row;

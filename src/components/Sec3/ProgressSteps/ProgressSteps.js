@@ -1,9 +1,11 @@
 import React from 'react'
 import ProgressStep from './ProgressStep/ProgressStep'
 
+import styles from '../Sec3.module.scss';
+
 function ProgressSteps() {
     return (
-        <div className='progress__steps'>
+        <div className={styles.progress_steps}>
             <ProgressStep 
             title='قدم اول'
             text='وارد بخش ارسال عکس نسخه بشید عکس و توضیحات نسخه رو وارد کنید'

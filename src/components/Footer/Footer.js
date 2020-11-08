@@ -1,10 +1,12 @@
 import React from 'react'
-import '../../assets/sass/Footer.scss'
-import Logo from '../../assets/images/header-logo.svg'
 
+import '../../assets/sass/Footer.scss'
+
+import Logo from '../../assets/images/header-logo.svg'
 import InstaLogo from '../../assets/images/Icons - Facebook Copy.svg'
 import FacebookLogo from '../../assets/images/Icons - Facebook Copy 2.svg'
 import LinkedInLogo from '../../assets/images/linkedin.svg'
+
 function Footer() {
     return (
         <div className='sec__8'>
