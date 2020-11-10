@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-import DangerIcon from "../../../../assets/images/danger-icon.svg";
+import DangerIcon from "../../assets/images/danger-icon.svg";
 
-import styles from '../../Sec4.module.scss'
+import styles from '../../components/Sec4/Sec4.module.scss'
 
 class Input extends Component {
   state = {
@@ -17,6 +17,7 @@ class Input extends Component {
     } else {
       this.setState({ inputIsValid: true });
     }
+    console.log(this.state.input)
   };
 
   render() {

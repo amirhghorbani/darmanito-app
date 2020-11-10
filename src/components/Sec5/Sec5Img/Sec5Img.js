@@ -1,9 +1,11 @@
 import React from 'react'
 import HealthDocImg from '../../../assets/images/health-doc.svg'
 
+import styles from '../Sec5.module.scss'
+
 function Sec5Img() {
     return (
-        <div className='sec__6__img'>
+        <div className={styles.sec__5__img}>
             <img src={HealthDocImg} alt='doc' />
         </div>
     )

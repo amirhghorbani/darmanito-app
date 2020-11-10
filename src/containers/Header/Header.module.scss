@@ -6,16 +6,16 @@
         margin: 20px auto;
 
         nav, .download__btn {
-         display: none;
+            display: none;
         }
 
         .items {
-         width: 100%;
-         @include flexCenter;
+            width: 100%;
+            @include flex(row, space-between, center);
          
-         .dropIcon {
-             display: block;
-         }
+            .dropIcon {
+                display: block;
+            }
         }
 
         .dropmenu {
@@ -23,8 +23,8 @@
             height: 600px;
 
             button {
-                width: 170px !important;
                 @include ghostButton;
+                width: 170px;
             }
             hr {
                 width: 100%;
@@ -35,19 +35,18 @@
                 margin-top: 32.5px;
             }
             h3 {
-                font-size: 15px;
+                font-size: $pSm;
                 color: $primaryColor;
                 margin-top: 32.5px;
 
                 &::before {
                     @include beforeText;
-                    border-color: $primaryColor !important;
+                    border-color: $primaryColor;
                 }
             }
             li {
-                list-style: none;
-                margin-top: 33px;
-                border: 2px solid white;  
+                @include liTag;
+                margin-top: 33px;  
                 a {
                     @include aTag;
                     padding-bottom: 10px;
@@ -73,9 +72,8 @@
         nav, .download__btn {
             display: block;
         }
-
         .items {
-            @include flexCenter;
+            @include flex(row, space-between, center);
 
             .dropIcon {
                 display: none;
@@ -86,24 +84,24 @@
                 ul {
                     width: 100%;
                     padding: 0;
-                    @include flexCenter;
+                    @include flex(row, space-between, center);
 
-                        li {
-                            @include liTag;
+                    li {
+                        @include liTag;
 
-                            a {
-                                @include aTag;
-                                padding-bottom: 10px;
+                        a {
+                            @include aTag;
+                            padding-bottom: 10px;
 
-                                &:hover {
-                                    @include hoverIcon;
-                                }
+                            &:hover {
+                                @include hoverIcon;
                             }
                         }
+                    }
                 }
             }
             button {
-                    @include ghostButton;
+                @include ghostButton;
             }           
         }
     }

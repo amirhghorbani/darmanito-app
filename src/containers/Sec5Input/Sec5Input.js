@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-import DangerIcon from "../../../assets/images/danger-icon.svg";
+import DangerIcon from "../../assets/images/danger-icon.svg";
 
-import styles from '../../Sec5/Sec5.module.scss'
+import styles from '../../components/Sec5/Sec5.module.scss'
 
 
 // import "../../../assets/sass/Sec5.scss";
@@ -40,7 +40,7 @@ function Sec5Input() {
   );
 
   return (
-    <div className={styles.sec__6__input}>
+    <div className={styles.sec__5__input}>
       <div className={styles.input}>
         <input
           type="text"

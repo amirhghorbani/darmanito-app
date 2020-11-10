@@ -7,7 +7,6 @@
     border-radius: 10px;
     margin-left: 16.5px;
 };
-
 @mixin buttonSizes {
     width: 15%;
     height: 52px;
@@ -16,7 +15,6 @@
     border-radius: 10px;
     cursor: pointer;
 }
-
 @mixin primaryButton {
     @include buttonSizes;
     color: white;
@@ -28,7 +26,6 @@
          background-color: $cloudyColor;
     }
 }
-
 @mixin commonButton {
     @include buttonSizes;
     color: $primaryColor;
@@ -40,42 +37,25 @@
         background-color: $cloudyColor;
     }
 }
-
 @mixin ghostButton {
     @include buttonSizes;
     background-color: $cloudyColor;
     color: $primaryColor;
     border: none;
 } 
-
 @mixin liTag {
     list-style: none;
     border: 2px solid white;
 }
-
 @mixin aTag {
     text-decoration: none;
     color: black; 
     font-weight: lighter;
 }
-
 @mixin hoverIcon {
     color: $primaryColor;
     border-bottom: 2px solid $primaryColor;
 }
-
-@mixin flexCenter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-@mixin flexCenterColumn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 @mixin box {
     width: 80px;
     height: 80px;
@@ -86,3 +66,64 @@
     align-items: center;
     justify-content: center;
 }
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin boxing($width, $height) {
+    width: $width;
+    height: $height;
+    border: none;
+    border-radius: 20px;
+    box-shadow: $boxShadow;
+}
+@mixin pText($size, $weight, $line) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line;
+}
+@mixin vLine {
+    width: 1px;
+    height: 80px;
+    margin-right: 17px;
+    background-color: $cloudyColor;
+    z-index: -1;
+}
+@mixin input($position, $width, $height){
+    position: $position;
+    width: $width;
+    height: $height;
+    background-color: white;
+    border: 1px solid white;
+    outline-style: none;
+    border-radius: 10px;
+    padding-right: 10px;
+
+    &::placeholder {
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    &:focus {
+      background-color: $cloudyColor;  
+    }
+
+}
+@mixin btnInput {
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 13px;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #1894FF;
+    border: none;
+    color: white;
+    padding: 10px 23px 12px 25px;
+    &:hover {
+        background-color: $cloudyColor;
+        color: $primaryColor;
+    }
+}
+

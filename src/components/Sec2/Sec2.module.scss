@@ -6,11 +6,13 @@
         margin: 50px auto;
 
         .image {
+            @include flex(column, unset, center);
+            width: 100%;
             position: relative;
             height: 260px;
 
             img {
-                width: 100%;
+                width: 100%; 
                 position: absolute;
             }
             img.cardDoc {
@@ -38,13 +40,42 @@
     }
 }
 
-@media screen and (min-width : 370px) {
+@media screen and (min-width : 370px) and (max-width : 767px) {
     .sec2 {
         .image {
-            height: 350px;
+            height: 300px;
+            max-height: 300px;
+            img {
+               max-height: 300px; 
+            }
+            img:last-child {
+                max-height: 150px;
+                left: 30%;
+            }
+            
         }
     }
     
+}
+
+@media screen and (min-width: 768px) and (max-width : 1023px) {
+    .sec2 {
+        .image {
+            height: 360px;
+            max-height: 400px;
+            
+            img {
+                width: 55%;
+                max-width: 65%;
+                max-height: 400px;
+            }
+            img:last-child {
+                width: 20%;
+                left: 40%;
+            }
+        }
+        
+    }
 }
 
 @media screen and (min-width : 1024px) {
@@ -54,8 +85,8 @@
         display: flex;
         justify-content: space-between;
         .image {
-            // width: 40%;
-            // height: 356px;
+            width: 40%;
+            height: 356px;
             position: relative;
             img:first-child {
                 width: 356px;
@@ -77,7 +108,7 @@
                 width: 113px;
                 position: absolute;
                 top: 113px;
-                right: 122px;
+                left: 35%;
             }
 
         }

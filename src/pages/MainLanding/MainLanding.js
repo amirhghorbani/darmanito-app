@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "../../components/Header/Header";
+import Header from "../../containers/Header/Header";
 import Sec1 from "../../components/Sec1/Sec1";
 import Sec2 from "../../components/Sec2/Sec2";
 import Sec3 from "../../components/Sec3/Sec3";
