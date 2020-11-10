@@ -1,37 +1,28 @@
 @import '../../assets/sass/styles.scss';
 
-@media screen and (min-width : 320px) and (max-width : 1023px) {
+@media screen and (min-width : 320px) and (max-width : 767px) {
     .sec__8 {
         width: 80%;
-        margin: 0 auto;
-        margin-top: 52px;
-        margin-bottom: 50px;
+        margin: 52px auto 50px auto;
         height: 220px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
+        @include flex(column, space-between, flex-start);
 
         .sec8__1 {
             height: 220px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-start;
+            @include flex(column, space-between, flex-start);
+
             .sec__8__text {
-            p:first-child {
-                font-size: 14px;
-                font-weight: bold;
+                p:first-child {
+                    @include pText($pSm, bold, unset);
+                }
+                p:last-child {
+                    @include pText($pSm, lighter, 1.6rem);
+                }
             }
-            p:last-child {
-                font-size: 14px;
-                font-weight: lighter;
-                line-height: 1.6rem;
-            }
-        }
 
         .sec__8__icons {
-            width: 80%;
+            width: 100%;
+            @include flex(row, space-around, center);
             display: flex;
             justify-content: space-around;
             align-self: center;
@@ -40,51 +31,39 @@
         .sec8__2, .sec8__btn {
             display: none;
         }
-        
-
     }
 }
 
-@media screen and (min-width : 1024px) {
+@media screen and (min-width : 768px) and (max-width : 1023px) {
     .sec__8 {
         width: 75%;
-        margin: 0 auto;
-        margin-top: 52px;
-        margin-bottom: 50px;
+        margin: 52px auto 50px auto;
         height: 240px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        @include flex(row, space-between, unset);
 
         .sec8__1 {
             width: 25%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-start;
+            @include flex(column, space-between, flex-start);
             height: 230px;
+
             .sec__8__text {
                 p:first-child {
-                    font-size: 14px;
-                    font-weight: bold;
+                    @include pText($pSm, bold, unset);
                 }
                 p:last-child {
-                    font-size: 14px;
-                    font-weight: lighter;
-                    line-height: 1.6rem;
+                    @include pText($pSm, lighter, 1.6rem);
                 }
             }
     
             .sec__8__icons {
                 margin-top: 33px;
-                width: 50%;
-                display: flex;
-                justify-content: space-between;
+                width: 70%;
+                @include flex(row, space-between, center);
                 align-self: flex-start;
             }
         }
         .sec8__2 {
-            width: 11%;
+            width: 15%;
             p {
                 font-weight: bold;
             }
@@ -94,12 +73,10 @@
                     list-style: none;
                     margin-top: 30px;
                     a {
-                        font-size: 14px;
-                        font-weight: lighter;
+                        @include aTag;
+                        font-size: $pSm;
                         border-bottom: 2px solid white;
                         padding-bottom: 10px;
-                        text-decoration: none;
-                        color: black;
 
                         &:hover {
                             border-color: $primaryColor;
@@ -109,16 +86,80 @@
             }
         }
         .sec8__btn {
-            width: 37%;
+            width: 25%;
             p {
                 font-weight: bold;
             }
             .btns {
+                @include flex(column, space-between, unset);
                 margin-top: 28px;
 
-                a:last-child {
-                margin-right: 10px;
+            }
+            
+        }
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .sec__8 {
+        width: 75%;
+        margin: 52px auto 50px auto;
+        height: 240px;
+        @include flex(row, space-between, unset);
+
+        .sec8__1 {
+            width: 25%;
+            @include flex(column, space-between, flex-start);
+            height: 230px;
+
+            .sec__8__text {
+                p:first-child {
+                    @include pText($pSm, bold, unset);
                 }
+                p:last-child {
+                    @include pText($pSm, lighter, 1.6rem);
+                }
+            }
+    
+            .sec__8__icons {
+                margin-top: 33px;
+                width: 70%;
+                @include flex(row, space-between, center);
+                align-self: flex-start;
+            }
+        }
+        .sec8__2 {
+            width: 15%;
+            p {
+                font-weight: bold;
+            }
+            ul {
+                padding: 0;
+                li {
+                    list-style: none;
+                    margin-top: 30px;
+                    a {
+                        @include aTag;
+                        font-size: $pSm;
+                        border-bottom: 2px solid white;
+                        padding-bottom: 10px;
+
+                        &:hover {
+                            border-color: $primaryColor;
+                        }
+                    }
+                }
+            }
+        }
+        .sec8__btn {
+            width: 25%;
+            p {
+                font-weight: bold;
+            }
+            .btns {
+                @include flex(column, space-between, unset);
+                margin-top: 28px;
+
             }
             
         }
