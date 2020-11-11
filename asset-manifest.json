@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/darmanito-app/static/css/main.24b29372.chunk.css",
-    "main.js": "/darmanito-app/static/js/main.ba403499.chunk.js",
-    "main.js.map": "/darmanito-app/static/js/main.ba403499.chunk.js.map",
-    "runtime-main.js": "/darmanito-app/static/js/runtime-main.77427789.js",
-    "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.77427789.js.map",
-    "static/js/2.6bb7679c.chunk.js": "/darmanito-app/static/js/2.6bb7679c.chunk.js",
-    "static/js/2.6bb7679c.chunk.js.map": "/darmanito-app/static/js/2.6bb7679c.chunk.js.map",
-    "static/js/3.427091f4.chunk.js": "/darmanito-app/static/js/3.427091f4.chunk.js",
-    "static/js/3.427091f4.chunk.js.map": "/darmanito-app/static/js/3.427091f4.chunk.js.map",
+    "main.css": "/darmanito-app/static/css/main.3ddefb58.chunk.css",
+    "main.js": "/darmanito-app/static/js/main.2ada25c3.chunk.js",
+    "main.js.map": "/darmanito-app/static/js/main.2ada25c3.chunk.js.map",
+    "runtime-main.js": "/darmanito-app/static/js/runtime-main.b3643d57.js",
+    "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.b3643d57.js.map",
+    "static/js/2.46530370.chunk.js": "/darmanito-app/static/js/2.46530370.chunk.js",
+    "static/js/2.46530370.chunk.js.map": "/darmanito-app/static/js/2.46530370.chunk.js.map",
+    "static/js/3.4d9091b1.chunk.js": "/darmanito-app/static/js/3.4d9091b1.chunk.js",
+    "static/js/3.4d9091b1.chunk.js.map": "/darmanito-app/static/js/3.4d9091b1.chunk.js.map",
     "index.html": "/darmanito-app/index.html",
-    "static/css/main.24b29372.chunk.css.map": "/darmanito-app/static/css/main.24b29372.chunk.css.map",
-    "static/js/2.6bb7679c.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.6bb7679c.chunk.js.LICENSE.txt",
+    "static/css/main.3ddefb58.chunk.css.map": "/darmanito-app/static/css/main.3ddefb58.chunk.css.map",
+    "static/js/2.46530370.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.46530370.chunk.js.LICENSE.txt",
     "static/media/Card Bacground.727ec2fc.svg": "/darmanito-app/static/media/Card Bacground.727ec2fc.svg",
     "static/media/Card-doc.fa832516.svg": "/darmanito-app/static/media/Card-doc.fa832516.svg",
     "static/media/Card-play.7cb6b114.svg": "/darmanito-app/static/media/Card-play.7cb6b114.svg",
@@ -28,6 +28,7 @@
     "static/media/health-doc.a468f450.svg": "/darmanito-app/static/media/health-doc.a468f450.svg",
     "static/media/linkedin.2c8a2284.svg": "/darmanito-app/static/media/linkedin.2c8a2284.svg",
     "static/media/market.fd63f556.svg": "/darmanito-app/static/media/market.fd63f556.svg",
+    "static/media/modal-img1.a86ca587.svg": "/darmanito-app/static/media/modal-img1.a86ca587.svg",
     "static/media/pharmacy.46ea6620.svg": "/darmanito-app/static/media/pharmacy.46ea6620.svg",
     "static/media/phone.006c1ccd.svg": "/darmanito-app/static/media/phone.006c1ccd.svg",
     "static/media/sec1-doctor.b7bcaa89.svg": "/darmanito-app/static/media/sec1-doctor.b7bcaa89.svg",
@@ -40,9 +41,9 @@
     "static/media/support-icon.c4b4a6cb.svg": "/darmanito-app/static/media/support-icon.c4b4a6cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.77427789.js",
-    "static/js/2.6bb7679c.chunk.js",
-    "static/css/main.24b29372.chunk.css",
-    "static/js/main.ba403499.chunk.js"
+    "static/js/runtime-main.b3643d57.js",
+    "static/js/2.46530370.chunk.js",
+    "static/css/main.3ddefb58.chunk.css",
+    "static/js/main.2ada25c3.chunk.js"
   ]
 }
