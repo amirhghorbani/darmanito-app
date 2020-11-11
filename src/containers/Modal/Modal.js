@@ -1,24 +1,23 @@
 import React from 'react'
 
 import ModalImg from '../../assets/images/modal-img1.svg';
-import './Modal.scss'
+import styles from './Modal.module.scss'
 
 const Modal = ({handleClose, show, header, text}) =>  {
 
-    const showHideClassName = show ? 'modal display-block' : 'modal display-none';
+    const showHideClassName = show ? `${styles.modal} ${styles.dBlock}`: `${styles.modal} ${styles.dNone}`;
 
     return (
         <div className={showHideClassName}>
-                <section className="modal-main">
+                <section className={styles.modal_main}>
                     <img src={ModalImg} alt='icon' />
-                    <div className='text'>
+                    <div className={styles.text}>
                     <h5>{header}</h5>
                     <p>{text}</p>  
                     </div>
                     
                 <button onClick={handleClose}>برگشت</button>
-            </section>
-            
+            </section> 
         </div>
     )
 }
