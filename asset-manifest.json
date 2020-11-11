@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/darmanito-app/static/css/main.3ddefb58.chunk.css",
-    "main.js": "/darmanito-app/static/js/main.2ada25c3.chunk.js",
-    "main.js.map": "/darmanito-app/static/js/main.2ada25c3.chunk.js.map",
+    "main.css": "/darmanito-app/static/css/main.6c957fdf.chunk.css",
+    "main.js": "/darmanito-app/static/js/main.1feb1fea.chunk.js",
+    "main.js.map": "/darmanito-app/static/js/main.1feb1fea.chunk.js.map",
     "runtime-main.js": "/darmanito-app/static/js/runtime-main.b3643d57.js",
     "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.b3643d57.js.map",
-    "static/js/2.46530370.chunk.js": "/darmanito-app/static/js/2.46530370.chunk.js",
-    "static/js/2.46530370.chunk.js.map": "/darmanito-app/static/js/2.46530370.chunk.js.map",
+    "static/js/2.05afee53.chunk.js": "/darmanito-app/static/js/2.05afee53.chunk.js",
+    "static/js/2.05afee53.chunk.js.map": "/darmanito-app/static/js/2.05afee53.chunk.js.map",
     "static/js/3.4d9091b1.chunk.js": "/darmanito-app/static/js/3.4d9091b1.chunk.js",
     "static/js/3.4d9091b1.chunk.js.map": "/darmanito-app/static/js/3.4d9091b1.chunk.js.map",
     "index.html": "/darmanito-app/index.html",
-    "static/css/main.3ddefb58.chunk.css.map": "/darmanito-app/static/css/main.3ddefb58.chunk.css.map",
-    "static/js/2.46530370.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.46530370.chunk.js.LICENSE.txt",
+    "static/css/main.6c957fdf.chunk.css.map": "/darmanito-app/static/css/main.6c957fdf.chunk.css.map",
+    "static/js/2.05afee53.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.05afee53.chunk.js.LICENSE.txt",
     "static/media/Card Bacground.727ec2fc.svg": "/darmanito-app/static/media/Card Bacground.727ec2fc.svg",
     "static/media/Card-doc.fa832516.svg": "/darmanito-app/static/media/Card-doc.fa832516.svg",
     "static/media/Card-play.7cb6b114.svg": "/darmanito-app/static/media/Card-play.7cb6b114.svg",
@@ -42,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b3643d57.js",
-    "static/js/2.46530370.chunk.js",
-    "static/css/main.3ddefb58.chunk.css",
-    "static/js/main.2ada25c3.chunk.js"
+    "static/js/2.05afee53.chunk.js",
+    "static/css/main.6c957fdf.chunk.css",
+    "static/js/main.1feb1fea.chunk.js"
   ]
 }
