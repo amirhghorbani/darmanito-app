@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import Modal from '../../containers/Modal/Modal';
+
 import DangerIcon from "../../assets/images/danger-icon.svg";
 
 import styles from '../../components/Sec5/Sec5.module.scss'
@@ -10,6 +12,7 @@ import styles from '../../components/Sec5/Sec5.module.scss'
 function Sec5Input() {
   const [input, setInput] = useState("");
   const [inputIsValid, setInputIsValid] = useState(null);
+  const [show, setShow] = useState(false);
 
   const changeHandler = (event) => {
     const inputVal = event.target.value;
@@ -22,6 +25,15 @@ function Sec5Input() {
       setInputIsValid(true);
     }
   };
+
+  const modalShow = () => {
+    setTimeout(() => {
+      setShow(true)
+    }, 2000);
+  }
+  const hideModal = () => {
+    setShow(false);
+  }
 
   const dangerText = (
     <div style={{ display: "flex" }}>
@@ -41,6 +53,7 @@ function Sec5Input() {
 
   return (
     <div className={styles.sec__5__input}>
+      <Modal header='ثبت نام با موفقیت انجام شد' text='برای اعلام توضیحات با شما تماس خواهیم گرفت' show={show} handleClose={hideModal}/>
       <div className={styles.input}>
         <input
           type="text"
@@ -51,7 +64,7 @@ function Sec5Input() {
             inputIsValid !== null ? (inputIsValid ? styles.success : styles.danger) : ""
           }
         />
-        <button>ثبت نام سریع</button>
+        <button onClick={inputIsValid ? modalShow : null}>ثبت نام سریع</button>
       </div>
       {inputIsValid !== null ? (!inputIsValid ? dangerText : "") : ""}
     </div>

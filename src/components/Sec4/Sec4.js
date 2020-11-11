@@ -7,6 +7,11 @@ import PhoneImg from "./PhoneImg/PhoneImg";
 import Title from "./Title/Title";
 
 class Sec4 extends Component {
+
+  state = {
+    
+  }
+
   render() {
     return (
       <div className={styles.sec5}>
