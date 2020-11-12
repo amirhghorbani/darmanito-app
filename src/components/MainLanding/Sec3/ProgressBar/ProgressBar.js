@@ -1,6 +1,6 @@
 import React from 'react'
-import DirectSign from '../../../assets/images/Component 12 – 1.png'
-import CheckSign from '../../../assets/images/check-mark.png'
+import DirectSign from '../../../../assets/images/Component 12 – 1.png'
+import CheckSign from '../../../../assets/images/check-mark.png'
 
 import styles from '../../Sec3/Sec3.module.scss';
 

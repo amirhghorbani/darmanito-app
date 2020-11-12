@@ -2,9 +2,9 @@ import React from 'react'
 
 import styles from '../Sec2/Sec2.module.scss';
 
-import Sec2ImgBack from '../../assets/images/Card Bacground.svg'
-import Sec2ImgDoc from '../../assets/images/Card-doc.svg'
-import Sec2ImgPlay from '../../assets/images/Card-play.svg'
+import Sec2ImgBack from '../../../assets/images/Card Bacground.svg'
+import Sec2ImgDoc from '../../../assets/images/Card-doc.svg'
+import Sec2ImgPlay from '../../../assets/images/Card-play.svg'
 import ContentText from './ContentText/ContentText'
 
 function Sec2() {

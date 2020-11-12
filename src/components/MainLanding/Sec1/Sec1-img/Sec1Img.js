@@ -1,6 +1,6 @@
 import React from 'react'
-import DocImg from '../../../assets/images/sec1-doctor.svg'
-import DocBackg from '../../../assets/images/doc-background.svg'
+import DocImg from '../../../../assets/images/sec1-doctor.svg'
+import DocBackg from '../../../../assets/images/doc-background.svg'
 
 import styles from '../Sec1.module.scss'
 

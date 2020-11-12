@@ -1,5 +1,5 @@
 import React from 'react'
-import HealthDocImg from '../../../assets/images/health-doc.svg'
+import HealthDocImg from '../../../../assets/images/health-doc.svg'
 
 import styles from '../Sec5.module.scss'
 

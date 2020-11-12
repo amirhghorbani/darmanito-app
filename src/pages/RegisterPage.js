@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Header from '../../containers/Header/Header'
-import Support from '../../components/Common/Support/Support'
-import Footer from '../../components/Common/Footer/Footer'
+import Header from '../containers/Header/Header'
+import Support from '../components/Common/Support/Support'
+import Footer from '../components/Common/Footer/Footer'
 
 function RegisterPage() {
     return (

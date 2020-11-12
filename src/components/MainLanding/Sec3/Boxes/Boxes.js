@@ -1,8 +1,8 @@
 import React from 'react'
 import Box from './Box/Box'
-import PharmImg from '../../../assets/images/pharmacy.svg'
-import MarketImg from '../../../assets/images/market.svg'
-import StethoscopeImg from '../../../assets/images/stethoscope.svg'
+import PharmImg from '../../../../assets/images/pharmacy.svg'
+import MarketImg from '../../../../assets/images/market.svg'
+import StethoscopeImg from '../../../../assets/images/stethoscope.svg'
 
 import styles from '../Sec3.module.scss'
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import HeaderTitle from '../../Sec3/HeaderTitle/HeaderTitle'
 
-import CheckIcon from '../../../assets/images/services-check-icon.svg'
-import PathIcon from '../../../assets/images/services-path-icon.svg'
-import EasyIcon from '../../../assets/images/services-easy-icon.svg'
-import SearchIcon from '../../../assets/images/services-search-icon.svg'
+import CheckIcon from '../../../../assets/images/services-check-icon.svg'
+import PathIcon from '../../../../assets/images/services-path-icon.svg'
+import EasyIcon from '../../../../assets/images/services-easy-icon.svg'
+import SearchIcon from '../../../../assets/images/services-search-icon.svg'
 
 
 

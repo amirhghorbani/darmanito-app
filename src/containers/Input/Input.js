@@ -4,7 +4,7 @@ import Modal from '../../containers/Modal/Modal'
 
 import DangerIcon from "../../assets/images/danger-icon.svg";
 
-import styles from '../../components/Sec4/Sec4.module.scss'
+import styles from '../../components/MainLanding/Sec4/Sec4.module.scss'
 
 
 const DangerText = () =>  (

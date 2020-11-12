@@ -5,7 +5,7 @@ import React from 'react'
 import styles from './Sec5.module.scss'
 
 import Sec5Img from './Sec5Img/Sec5Img'
-import Sec5Input from '../../containers/Sec5Input/Sec5Input'
+import Sec5Input from '../../../containers/Sec5Input/Sec5Input'
 import Sec5Text from './Sec5Text/Sec5Text'
 
 function Sec5() {

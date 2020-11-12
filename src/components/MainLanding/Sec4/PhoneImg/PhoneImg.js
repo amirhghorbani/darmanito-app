@@ -1,5 +1,5 @@
 import React from 'react'
-import PhonePic from '../../../assets/images/phone.svg'
+import PhonePic from '../../../../assets/images/phone.svg'
 import styles from '../Sec4.module.scss'
 
 function PhoneImg() {

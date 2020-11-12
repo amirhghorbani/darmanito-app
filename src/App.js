@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
-import MainLanding from './pages/MainLanding/MainLanding'
-import RegisterPage from './pages/MainLanding/RegisterPage';
+import MainLanding from './pages/MainLanding'
+import RegisterPage from './pages/RegisterPage';
 
 import {
   BrowserRouter as Router,
