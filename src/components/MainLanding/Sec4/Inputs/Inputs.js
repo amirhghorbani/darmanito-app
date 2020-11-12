@@ -1,5 +1,5 @@
 import React from 'react'
-import Input from '../../../containers/Input/Input'
+import Input from '../../../../containers/Input/Input'
 
 import styles from '../Sec4.module.scss'
 

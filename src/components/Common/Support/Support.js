@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from './Support.module.scss'
 
-import HeadPhone from '../../assets/images/support-icon.svg'
+import HeadPhone from '../../../assets/images/support-icon.svg';
 
 function Support() {
     return (

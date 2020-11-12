@@ -3,12 +3,12 @@ import React from 'react'
 // import '../../assets/sass/Footer.scss'
 import styles from './Footer.module.scss'
 
-import Logo from '../../assets/images/header-logo.svg'
-import InstaLogo from '../../assets/images/Icons - Facebook Copy.svg'
-import FacebookLogo from '../../assets/images/Icons - Facebook Copy 2.svg'
-import LinkedInLogo from '../../assets/images/linkedin.svg'
-import sibDlImg from '../../assets/images/apple-black-dl-icon.svg'
-import bazarDlImg from '../../assets/images/bazar-black-dl-icon.svg'
+import Logo from '../../../assets/images/header-logo.svg'
+import InstaLogo from '../../../assets/images/Icons - Facebook Copy.svg'
+import FacebookLogo from '../../../assets/images/Icons - Facebook Copy 2.svg'
+import LinkedInLogo from '../../../assets/images/linkedin.svg'
+import sibDlImg from '../../../assets/images/apple-black-dl-icon.svg'
+import bazarDlImg from '../../../assets/images/bazar-black-dl-icon.svg'
 
 function Footer() {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Sec1Img from "../Sec1/Sec1-img/Sec1Img";
+import Sec1Img from "./Sec1-img/Sec1Img";
 
 import styles from '../Sec1/Sec1.module.scss'
 

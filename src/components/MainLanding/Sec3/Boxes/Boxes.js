@@ -1,5 +1,5 @@
 import React from 'react'
-import Box from '../Boxes/Box/Box'
+import Box from './Box/Box'
 import PharmImg from '../../../assets/images/pharmacy.svg'
 import MarketImg from '../../../assets/images/market.svg'
 import StethoscopeImg from '../../../assets/images/stethoscope.svg'

@@ -1,4 +1,11 @@
 import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams
+} from "react-router-dom";
 
 import styles from "../Header/Header.module.scss";
 
@@ -17,19 +24,19 @@ const dropDiv = (
       <h3>صفحه اصلی</h3>
       <ul>
         <li>
-          <a href="">عضویت در داروخانه ها</a>
+          <Link to="/register_pharmacy">عضویت در داروخانه ها</Link>
         </li>
         <li>
-          <a href="">درباره ما</a>
+          <Link to="/about">درباره ما</Link>
         </li>
         <li>
-          <a href="">تماس با ما</a>
+          <Link to="/contact">تماس با ما</Link>
         </li>
         <li>
-          <a href="">سوالات متداول</a>
+          <Link to="">سوالات متداول</Link>
         </li>
         <li>
-          <a href="">قوانین و شرایط</a>
+          <Link to="">قوانین و شرایط</Link>
         </li>
       </ul>
     </div>
@@ -53,10 +60,10 @@ class Header extends Component {
   render() {
     return (
       <div className={styles.header}>
-        <div className={styles.items}>
-          <a href="#">
+          <div className={styles.items}>
+          <Link to="/darmanito-app">
             <img src={Logo} alt="header" />
-          </a>
+          </Link>
           <a
             className={styles.dropIcon}
             onClick={this.iconchangeHandler}
@@ -67,25 +74,25 @@ class Header extends Component {
           <nav>
             <ul>
               <li>
-                <a href="">صفحه اصلی</a>
+                <Link to='/darmanito-app'>صفحه اصلی</Link>
               </li>
               <li>
-                <a href="">درباره ما</a>
+                <Link to="/about">درباره ما</Link>
               </li>
               <li>
-                <a href="">تماس باما</a>
+                <Link to="/contact">تماس با ما</Link>
               </li>
               <li>
-                <a href="">عضویت داروخانه ها</a>
+                <Link to={"/register_pharmacy"}>عضویت داروخانه ها</Link>
               </li>
             </ul>
           </nav>
-
           <button className={styles.download__btn}>دانلود درمانیتو</button>
         </div>
-
-        {/* dropdown menu in mobile devices only */}
-        {this.state.show ? dropDiv : null}
+        
+          {/* dropdown menu in mobile devices only below code */}
+        
+          {this.state.show ? dropDiv : null}
       </div>
     );
   }
