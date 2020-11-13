@@ -1,26 +1,23 @@
 import React from "react";
+import MainLayout from "../components/Layouts/MainLayout";
+import MainPageComps from "../components/MainPageComps/MainPageComps";
+import RegisterPage from '../pages/RegisterPage';
 
-import Header from "../containers/Header/Header";
-import Sec1 from "../components/MainLanding/Sec1/Sec1";
-import Sec2 from "../components/MainLanding/Sec2/Sec2";
-import Sec3 from "../components/MainLanding/Sec3/Sec3";
-import Sec4 from "../components/MainLanding/Sec4/Sec4";
-import Sec5 from "../components/MainLanding/Sec5/Sec5";
-import Support from "../components/Common/Support/Support";
-import Footer from "../components/Common/Footer/Footer";
+import {Switch, Route} from 'react-router-dom'
+
+
+
 
 function MainLanding() {
 
   return (
     <div className="container" style={{ overflow: "hidden" }}>
-      <Header />
-      <Sec1 />
-      <Sec2 />
-      <Sec3 />
-      <Sec4 />
-      <Sec5 />
-      <Support />
-      <Footer />
+      <MainLayout>
+        <Switch>
+          <Route exact path='/darmanito-app' component={MainPageComps} />
+          <Route path='/register_pharmacy' component={RegisterPage} />
+        </Switch>
+      </MainLayout>
     </div>
   );
 }

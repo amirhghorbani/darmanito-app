@@ -4,7 +4,7 @@ import Modal from '../../containers/Modal/Modal';
 
 import DangerIcon from "../../assets/images/danger-icon.svg";
 
-import styles from '../../components/MainLanding/Sec5/Sec5.module.scss'
+import styles from '../../components/MainPageComps/Sec5/Sec5.module.scss'
 
 
 // import "../../../assets/sass/Sec5.scss";
