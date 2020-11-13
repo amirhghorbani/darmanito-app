@@ -37,7 +37,7 @@
                 }
             } 
    
-            button {
+            .modal_btn {
               @include primaryButton;
               width: 70%;
            }
@@ -89,7 +89,7 @@
                 }
             } 
    
-            button {
+            .modal_btn {
               @include primaryButton;
               width: 70%;
            }
@@ -140,7 +140,7 @@
                 }
             } 
    
-            button {
+            .modal_btn {
               @include primaryButton;
               width: 80%;
            }

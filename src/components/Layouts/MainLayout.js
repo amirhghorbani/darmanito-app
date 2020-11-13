@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Header from '../../containers/Header/Header';
+import Header from '../Common/Header/Header';
 import Footer from '../Common/Footer/Footer';
 import Support from '../Common/Support/Support';
 

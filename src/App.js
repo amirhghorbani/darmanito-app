@@ -1,5 +1,4 @@
 import React , { Component } from 'react';
-
 import MainLanding from './pages/MainLanding';
 
 class App extends Component {

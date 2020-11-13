@@ -1,0 +1,28 @@
+@import '../../../assets/sass/styles';
+
+@media screen and (min-width : 1024px) {
+    .section2 {
+        width: 100%;
+        background-color: $primaryColor;
+        height: 150px;
+        @include flex(row, center, center);
+
+        .container {
+            width: 75%;
+            @include flex(row, space-between, center);
+
+            .statistic {
+                @include flex(column, space-between, center);
+                height: 82px;
+                p{
+                    color: white;
+                    font-size: 16px;
+                    margin: 0;
+                }
+                p:last-child {
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}

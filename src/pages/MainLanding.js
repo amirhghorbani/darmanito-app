@@ -1,7 +1,7 @@
 import React from "react";
 import MainLayout from "../components/Layouts/MainLayout";
 import MainPageComps from "../components/MainPageComps/MainPageComps";
-import RegisterPage from '../pages/RegisterPage';
+import PharMemShipPage from '../pages/PharMemShipPage';
 
 import {Switch, Route} from 'react-router-dom'
 
@@ -15,7 +15,7 @@ function MainLanding() {
       <MainLayout>
         <Switch>
           <Route exact path='/darmanito-app' component={MainPageComps} />
-          <Route path='/register_pharmacy' component={RegisterPage} />
+          <Route path='/register_pharmacy' component={PharMemShipPage} />
         </Switch>
       </MainLayout>
     </div>

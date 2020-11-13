@@ -1,19 +1,13 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams
-} from "react-router-dom";
+import {BrowserRouter as Router, Route,  Link} from "react-router-dom";
 
 import styles from "../Header/Header.module.scss";
 
 // import "../../sass/Header.scss";
 
-import Logo from "../../assets/images/header-logo.svg";
-import DropDown from "../../assets/images/dropdown-icon.svg";
-import DropUp from "../../assets/images/dropup-icon.svg";
+import Logo from "../../../assets/images/header-logo.svg";
+import DropDown from "../../../assets/images/dropdown-icon.svg";
+import DropUp from "../../../assets/images/dropup-icon.svg";
 
 /* dropdown menu jsx code */
 const dropDiv = (

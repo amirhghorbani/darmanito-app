@@ -1,0 +1,29 @@
+@import '../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {}
+
+@media screen and (min-width : 1024px) {
+    .section1 {
+        width: 75%;
+        margin: 122px auto;
+        @include flex(row, space-between, center);
+        .content {
+            width: 40%;
+            h3 {
+                font-size: 30px;
+                color: $primaryColor;
+                line-height: 3rem;
+            }
+            p {
+                @include pText(16px, lighter, 1.8rem)
+            }
+            
+        }
+        .pharmInformation {
+            width: 50%;
+            height: 371px;
+            @include flex(column, space-between, unset);
+        }
+    }
+}
+

@@ -16,7 +16,7 @@ const Modal = ({handleClose, show, header, text}) =>  {
                     <p>{text}</p>  
                     </div>
                     
-                <button onClick={handleClose}>برگشت</button>
+                <button className={styles.modal_btn} onClick={handleClose}>برگشت</button>
             </section> 
         </div>
     )
