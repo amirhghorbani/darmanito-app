@@ -27,7 +27,7 @@ const dropDiv = (
           <Link to="/contact">تماس با ما</Link>
         </li>
         <li>
-          <Link to="">سوالات متداول</Link>
+          <Link to="/faq_page">سوالات متداول</Link>
         </li>
         <li>
           <Link to="">قوانین و شرایط</Link>

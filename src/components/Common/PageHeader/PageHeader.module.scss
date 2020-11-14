@@ -1,0 +1,23 @@
+@import '../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {
+    .container {
+        width: 100%;
+        height: 60px;
+        background-color: $primaryColor;
+        @include flex(unset, center, center);
+        p {
+            @include pText(16px, bold, unset);
+            color: white;
+        }
+    }
+}
+
+@media screen and (min-width : 700px) {
+    .container {
+        height: 120px;
+        p {
+            @include pText(30px, bold, unset);
+        }
+    }
+}

@@ -9,6 +9,7 @@ import FacebookLogo from '../../../assets/images/Icons - Facebook Copy 2.svg'
 import LinkedInLogo from '../../../assets/images/linkedin.svg'
 import sibDlImg from '../../../assets/images/apple-black-dl-icon.svg'
 import bazarDlImg from '../../../assets/images/bazar-black-dl-icon.svg'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -43,7 +44,7 @@ function Footer() {
                 <ul>
                     <li><a href='#'>تماس باما</a></li>
                     <li><a href='#'>درباره ما</a></li>
-                    <li><a href='#'>سوالات متداول</a></li>
+                    <li><Link to='/faq_page'>سوالات متداول</Link></li>
                     <li><a href='#'>قوانین و شرایط</a></li>
                 </ul>
             </div> 

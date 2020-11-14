@@ -1,0 +1,200 @@
+@import '../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {
+    .section1 {
+        width: 80%;
+        margin: 91px auto;
+
+        .title {
+            h5 {
+                @include pText(16px, bold, unset);
+                color: $epiblueColor;
+                &::before {
+                    @include beforeText;
+                }
+            }
+        }
+        .boxes {
+            width: 180%;
+            margin: 53px auto;
+            @include flex(row, space-between, center);
+
+            .box {
+                @include boxing(22%, 120px);
+                @include flex(column, space-evenly, center);
+                max-width: 160px;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    max-width: 50px;
+                    height: 100%;
+                    max-height: 43px;
+                }
+                p {
+                   color: $epiblueColor;
+                   @include pText(14px, normal, unset);
+                   margin: 0; 
+                }
+            }
+            .deactive {
+                filter: grayscale(100%);
+                opacity: .7;
+
+                &:hover {
+                    filter: grayscale(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 550px) {
+    .section1 {
+        width: 80%;
+        margin: 91px auto;
+
+        .title {
+            h5 {
+                @include pText(16px, bold, unset);
+                color: $epiblueColor;
+                &::before {
+                    @include beforeText;
+                }
+            }
+        }
+        .boxes {
+            width: 160%;
+            margin: 53px auto;
+            @include flex(row, space-between, center);
+
+            .box {
+                @include boxing(20%, 120px);
+                @include flex(column, space-evenly, center);
+                max-width: 160px;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    max-width: 50px;
+                    height: 100%;
+                    max-height: 43px;
+                }
+                p {
+                   color: $epiblueColor;
+                   @include pText(14px, normal, unset);
+                   margin: 0; 
+                }
+            }
+            .deactive {
+                filter: grayscale(100%);
+                opacity: .7;
+
+                &:hover {
+                    filter: grayscale(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .section1 {
+        width: 80%;
+        margin: 91px auto;
+
+        .title {
+            h5 {
+                @include pText(16px, bold, unset);
+                color: $epiblueColor;
+                &::before {
+                    @include beforeText;
+                }
+            }
+        }
+        .boxes {
+            width: 100%;
+            margin: 53px auto;
+            @include flex(row, space-between, center);
+
+            .box {
+                @include boxing(20%, 120px);
+                @include flex(column, space-evenly, center);
+                max-width: 160px;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    max-width: 50px;
+                    height: 100%;
+                    max-height: 43px;
+                }
+                p {
+                   color: $epiblueColor;
+                   @include pText(14px, normal, unset);
+                   margin: 0; 
+                }
+            }
+            .deactive {
+                filter: grayscale(100%);
+                opacity: .7;
+
+                &:hover {
+                    filter: grayscale(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .section1 {
+        width: 75%;
+        margin: 91px auto;
+
+        .title {
+            h5 {
+                @include pText(20px, bold, unset);
+                color: $epiblueColor;
+                &::before {
+                    @include beforeText;
+                }
+            }
+        }
+        .boxes {
+            width: 95%;
+            margin: 53px auto;
+            @include flex(row, space-between, center);
+
+            .box {
+                @include boxing(20%, 160px);
+                @include flex(column, space-evenly, center);
+                max-width: 160px;
+                cursor: pointer;
+
+                img {
+                    width: 100%;
+                    max-width: 67px;
+                    height: 100%;
+                    max-height: 68px;
+                }
+                p {
+                   color: $epiblueColor;
+                   @include pText(14px, normal, unset); 
+                }
+            }
+            .deactive {
+                filter: grayscale(100%);
+                opacity: .7;
+
+                &:hover {
+                    filter: grayscale(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
