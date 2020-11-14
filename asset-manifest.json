@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/darmanito-app/static/css/main.b7aa4129.chunk.css",
-    "main.js": "/darmanito-app/static/js/main.0cd23a37.chunk.js",
-    "main.js.map": "/darmanito-app/static/js/main.0cd23a37.chunk.js.map",
-    "runtime-main.js": "/darmanito-app/static/js/runtime-main.666d0e29.js",
-    "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.666d0e29.js.map",
-    "static/js/2.fc402a30.chunk.js": "/darmanito-app/static/js/2.fc402a30.chunk.js",
-    "static/js/2.fc402a30.chunk.js.map": "/darmanito-app/static/js/2.fc402a30.chunk.js.map",
-    "static/js/3.c173a8ab.chunk.js": "/darmanito-app/static/js/3.c173a8ab.chunk.js",
-    "static/js/3.c173a8ab.chunk.js.map": "/darmanito-app/static/js/3.c173a8ab.chunk.js.map",
+    "main.css": "/darmanito-app/static/css/main.e1c56564.chunk.css",
+    "main.js": "/darmanito-app/static/js/main.cd2f3322.chunk.js",
+    "main.js.map": "/darmanito-app/static/js/main.cd2f3322.chunk.js.map",
+    "runtime-main.js": "/darmanito-app/static/js/runtime-main.4ca5f2dd.js",
+    "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.4ca5f2dd.js.map",
+    "static/js/2.95aa0978.chunk.js": "/darmanito-app/static/js/2.95aa0978.chunk.js",
+    "static/js/2.95aa0978.chunk.js.map": "/darmanito-app/static/js/2.95aa0978.chunk.js.map",
+    "static/js/3.92de6c3b.chunk.js": "/darmanito-app/static/js/3.92de6c3b.chunk.js",
+    "static/js/3.92de6c3b.chunk.js.map": "/darmanito-app/static/js/3.92de6c3b.chunk.js.map",
     "index.html": "/darmanito-app/index.html",
-    "static/css/main.b7aa4129.chunk.css.map": "/darmanito-app/static/css/main.b7aa4129.chunk.css.map",
-    "static/js/2.fc402a30.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.fc402a30.chunk.js.LICENSE.txt",
+    "static/css/main.e1c56564.chunk.css.map": "/darmanito-app/static/css/main.e1c56564.chunk.css.map",
+    "static/js/2.95aa0978.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.95aa0978.chunk.js.LICENSE.txt",
     "static/media/Card Bacground.727ec2fc.svg": "/darmanito-app/static/media/Card Bacground.727ec2fc.svg",
     "static/media/Card-doc.fa832516.svg": "/darmanito-app/static/media/Card-doc.fa832516.svg",
     "static/media/Card-play.7cb6b114.svg": "/darmanito-app/static/media/Card-play.7cb6b114.svg",
@@ -30,11 +30,13 @@
     "static/media/linkedin.2c8a2284.svg": "/darmanito-app/static/media/linkedin.2c8a2284.svg",
     "static/media/map-marker.0ba2b5c6.svg": "/darmanito-app/static/media/map-marker.0ba2b5c6.svg",
     "static/media/market.fd63f556.svg": "/darmanito-app/static/media/market.fd63f556.svg",
+    "static/media/minus-icon.c5cf2ffe.svg": "/darmanito-app/static/media/minus-icon.c5cf2ffe.svg",
     "static/media/modal-img1.a86ca587.svg": "/darmanito-app/static/media/modal-img1.a86ca587.svg",
     "static/media/person-icon.de56a674.svg": "/darmanito-app/static/media/person-icon.de56a674.svg",
     "static/media/pharmacy.46ea6620.svg": "/darmanito-app/static/media/pharmacy.46ea6620.svg",
     "static/media/phone.006c1ccd.svg": "/darmanito-app/static/media/phone.006c1ccd.svg",
     "static/media/phoneShop-img.ee6634e6.svg": "/darmanito-app/static/media/phoneShop-img.ee6634e6.svg",
+    "static/media/plus-icon.6a1b92ba.svg": "/darmanito-app/static/media/plus-icon.6a1b92ba.svg",
     "static/media/sec1-doctor.b7bcaa89.svg": "/darmanito-app/static/media/sec1-doctor.b7bcaa89.svg",
     "static/media/services-check-icon.250241f0.svg": "/darmanito-app/static/media/services-check-icon.250241f0.svg",
     "static/media/services-easy-icon.66ec5afd.svg": "/darmanito-app/static/media/services-easy-icon.66ec5afd.svg",
@@ -45,9 +47,9 @@
     "static/media/support-icon.c4b4a6cb.svg": "/darmanito-app/static/media/support-icon.c4b4a6cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.666d0e29.js",
-    "static/js/2.fc402a30.chunk.js",
-    "static/css/main.b7aa4129.chunk.css",
-    "static/js/main.0cd23a37.chunk.js"
+    "static/js/runtime-main.4ca5f2dd.js",
+    "static/js/2.95aa0978.chunk.js",
+    "static/css/main.e1c56564.chunk.css",
+    "static/js/main.cd2f3322.chunk.js"
   ]
 }
