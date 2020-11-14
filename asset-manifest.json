@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/darmanito-app/static/css/main.43b93338.chunk.css",
-    "main.js": "/darmanito-app/static/js/main.61996968.chunk.js",
-    "main.js.map": "/darmanito-app/static/js/main.61996968.chunk.js.map",
-    "runtime-main.js": "/darmanito-app/static/js/runtime-main.00519e08.js",
-    "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.00519e08.js.map",
-    "static/js/2.93b87087.chunk.js": "/darmanito-app/static/js/2.93b87087.chunk.js",
-    "static/js/2.93b87087.chunk.js.map": "/darmanito-app/static/js/2.93b87087.chunk.js.map",
-    "static/js/3.14b58b6d.chunk.js": "/darmanito-app/static/js/3.14b58b6d.chunk.js",
-    "static/js/3.14b58b6d.chunk.js.map": "/darmanito-app/static/js/3.14b58b6d.chunk.js.map",
+    "main.css": "/darmanito-app/static/css/main.c4c3cba5.chunk.css",
+    "main.js": "/darmanito-app/static/js/main.1b092a56.chunk.js",
+    "main.js.map": "/darmanito-app/static/js/main.1b092a56.chunk.js.map",
+    "runtime-main.js": "/darmanito-app/static/js/runtime-main.d77b2db4.js",
+    "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.d77b2db4.js.map",
+    "static/js/2.d89a82de.chunk.js": "/darmanito-app/static/js/2.d89a82de.chunk.js",
+    "static/js/2.d89a82de.chunk.js.map": "/darmanito-app/static/js/2.d89a82de.chunk.js.map",
+    "static/js/3.765b7229.chunk.js": "/darmanito-app/static/js/3.765b7229.chunk.js",
+    "static/js/3.765b7229.chunk.js.map": "/darmanito-app/static/js/3.765b7229.chunk.js.map",
     "index.html": "/darmanito-app/index.html",
-    "static/css/main.43b93338.chunk.css.map": "/darmanito-app/static/css/main.43b93338.chunk.css.map",
-    "static/js/2.93b87087.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.93b87087.chunk.js.LICENSE.txt",
+    "static/css/main.c4c3cba5.chunk.css.map": "/darmanito-app/static/css/main.c4c3cba5.chunk.css.map",
+    "static/js/2.d89a82de.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.d89a82de.chunk.js.LICENSE.txt",
     "static/media/Card Bacground.727ec2fc.svg": "/darmanito-app/static/media/Card Bacground.727ec2fc.svg",
     "static/media/Card-doc.fa832516.svg": "/darmanito-app/static/media/Card-doc.fa832516.svg",
     "static/media/Card-play.7cb6b114.svg": "/darmanito-app/static/media/Card-play.7cb6b114.svg",
@@ -26,11 +26,15 @@
     "static/media/dropup-icon.7e1658bc.svg": "/darmanito-app/static/media/dropup-icon.7e1658bc.svg",
     "static/media/header-logo.0623ce3b.svg": "/darmanito-app/static/media/header-logo.0623ce3b.svg",
     "static/media/health-doc.a468f450.svg": "/darmanito-app/static/media/health-doc.a468f450.svg",
+    "static/media/health__two_color-img.528c0da5.svg": "/darmanito-app/static/media/health__two_color-img.528c0da5.svg",
     "static/media/linkedin.2c8a2284.svg": "/darmanito-app/static/media/linkedin.2c8a2284.svg",
+    "static/media/map-marker.0ba2b5c6.svg": "/darmanito-app/static/media/map-marker.0ba2b5c6.svg",
     "static/media/market.fd63f556.svg": "/darmanito-app/static/media/market.fd63f556.svg",
     "static/media/modal-img1.a86ca587.svg": "/darmanito-app/static/media/modal-img1.a86ca587.svg",
+    "static/media/person-icon.de56a674.svg": "/darmanito-app/static/media/person-icon.de56a674.svg",
     "static/media/pharmacy.46ea6620.svg": "/darmanito-app/static/media/pharmacy.46ea6620.svg",
     "static/media/phone.006c1ccd.svg": "/darmanito-app/static/media/phone.006c1ccd.svg",
+    "static/media/phoneShop-img.ee6634e6.svg": "/darmanito-app/static/media/phoneShop-img.ee6634e6.svg",
     "static/media/sec1-doctor.b7bcaa89.svg": "/darmanito-app/static/media/sec1-doctor.b7bcaa89.svg",
     "static/media/services-check-icon.250241f0.svg": "/darmanito-app/static/media/services-check-icon.250241f0.svg",
     "static/media/services-easy-icon.66ec5afd.svg": "/darmanito-app/static/media/services-easy-icon.66ec5afd.svg",
@@ -41,9 +45,9 @@
     "static/media/support-icon.c4b4a6cb.svg": "/darmanito-app/static/media/support-icon.c4b4a6cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.00519e08.js",
-    "static/js/2.93b87087.chunk.js",
-    "static/css/main.43b93338.chunk.css",
-    "static/js/main.61996968.chunk.js"
+    "static/js/runtime-main.d77b2db4.js",
+    "static/js/2.d89a82de.chunk.js",
+    "static/css/main.c4c3cba5.chunk.css",
+    "static/js/main.1b092a56.chunk.js"
   ]
 }
