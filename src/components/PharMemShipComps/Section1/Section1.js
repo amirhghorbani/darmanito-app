@@ -1,5 +1,5 @@
 import React from 'react'
-import Sec5Input from '../../../containers/Sec5Input/Sec5Input'
+import FuncInput from '../../../containers/FuncInput/FuncInput';
 import PharmBoxInfo from './PharmBoxInfo/PharmBoxInfo';
 import PharmBoxInfoSm from './PharmBoxInfoSm/PharmBoxInfoSm';
 
@@ -13,7 +13,7 @@ function Section1() {
                 <p>
                 با ثبت نام به عنوان داروخانه یا فروشگاه و داروخانه شما هم به سیستم درمان کمک کنید و به هزاران کاربر خدمات ارائه بدین و روزانه درآمد سفارش های خودتون رو تسویه کنید
                 </p>
-                    <Sec5Input />
+                   <FuncInput /> 
             </div>
             
             <div className={styles.pharmInformation}>

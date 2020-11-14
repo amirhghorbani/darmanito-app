@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
-import Modal from '../../containers/Modal/Modal';
+import Modal from '../Modal/Modal';
 
 import DangerIcon from "../../assets/images/danger-icon.svg";
 
-import styles from '../../components/MainPageComps/Sec5/Sec5.module.scss'
+import styles from './FuncInput.module.scss';
 
 
 // import "../../../assets/sass/Sec5.scss";
 
-function Sec5Input() {
+function FuncInput() {
   const [input, setInput] = useState("");
   const [inputIsValid, setInputIsValid] = useState(null);
   const [show, setShow] = useState(false);
@@ -52,9 +52,9 @@ function Sec5Input() {
   );
 
   return (
-    <div className={styles.sec__5__input}>
+    <div className={styles.input}>
       <Modal header='ثبت نام با موفقیت انجام شد' text='برای اعلام توضیحات با شما تماس خواهیم گرفت' show={show} handleClose={hideModal}/>
-      <div className={styles.input}>
+      <div className={styles.container}>
         <input
           type="text"
           placeholder="شماره همراه را وارد کنید"
@@ -71,4 +71,4 @@ function Sec5Input() {
   );
 }
 
-export default Sec5Input;
+export default FuncInput;

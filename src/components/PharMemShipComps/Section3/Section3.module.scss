@@ -1,5 +1,93 @@
 @import '../../../assets/sass/styles';
 
+@media screen and (min-width : 320px) {
+    .section3 {
+        width: 80%;
+        margin: 102px auto;
+        h4 {
+            font-size: 16px;
+            color: $primaryColor;
+
+            &::before {
+                @include beforeText;
+            }
+        }
+        p {
+            @include pText(12px, lighter, unset);
+        }
+
+        .content {
+            width: 100%;
+            height: 1050px;
+            margin-top: 56px;
+            @include flex(column, space-between, unset);
+
+            .box {
+                width: 100%;
+                height: 500px;
+                box-shadow: $boxShadow;
+                border-radius: 50px;
+                @include flex(column, center, center);
+
+                .container {
+                    width: 90%;
+                    @include flex(column, space-between, center);
+
+                    .image {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .contentText {
+                        h5 {
+                            font-size: 16px;
+                            color: $epiblueColor;
+                        }
+                        p {
+                            @include pText(12px, lighter, 1.8rem);
+                        }
+                    }
+                    .btn {
+                        width: 60%;
+                        margin-top: 32px;
+
+                        button {
+                            width: 100%;
+                            height: 52px;
+                            border: none;
+                            border-radius: 10px;
+                            background-color: $primaryColor;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: bold;
+                             cursor: pointer;
+
+                             &:hover {
+                                 color: $primaryColor;
+                                 background-color: $cloudyColor;
+                             }
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+    .section3 {
+        .content {
+            @include flex(column, space-between, center);
+
+            .box {
+                width: 70%;
+            }
+        }
+    }
+}
+
 @media screen and (min-width : 1024px) {
     .section3 {
         width: 75%;
@@ -17,6 +105,8 @@
         }
 
         .content {
+            width: 100%;
+            height: auto;
             margin-top: 56px;
             @include flex(row, space-between, unset);
 

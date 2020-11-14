@@ -22,49 +22,6 @@
                     @include pText($pSm, lighter, 1.6rem);
                 }
             }
-            .sec__5__input {
-                width: 100%;
-                background-color: #F9F9F9;
-                height: 55px;
-                border-radius: 10px;
-                position: relative;
-                margin-top: 34px;
-
-                .input {
-                    width: 100%;
-                    height: 55px;
-
-                    .success {
-                        border: $borderPrimary;
-                    }
-                    .danger {
-                        border: $borderDanger;
-                    }
-
-                    input {
-                        width: 100%;
-                        height: inherit;
-                        background-color: #F9F9F9;
-                        border: none;
-                        outline-style: none;
-                        border-radius: 10px;
-                        padding-right: 10px;
-    
-                        &::placeholder {
-                            padding-right: 15px;
-                            font-size: 12px;
-                        }
-                        &:focus {
-                            background-color: $cloudyColor;  
-                        }
-                    }
-                    button {
-                        @include btnInput;
-                        padding: 12px 11px 13px 16px;
-                        top: 15%;
-                    }
-                }
-            }
         }
         .sec__5__img {
             width: 80%;
@@ -111,57 +68,6 @@
                 p:last-child {
                     @include pText(16px, lighter, 1.8rem);
                 }
-            }
-            .sec__5__input {
-                    width: 100%;
-                    background-color: #F9F9F9;
-                    height: 55px;
-                    border-radius: 10px;
-                    position: relative;
-                    margin-top: 36px;
-
-                .input {
-                        width: 100%;
-                        height: 55px;
-    
-                        .success {
-                            border: $borderPrimary;
-                        }
-                        .danger {
-                            border: $borderDanger;
-                        }
-    
-                    input {
-                        width: 100%;
-                        height: inherit;
-                        background-color: #F9F9F9;
-                        border: none;
-                        outline-style: none;
-                        border-radius: 10px;
-                        padding-right: 10px;
-
-                        &:focus {
-                            background-color: #e6f3ff;
-                        }
-        
-                        &::placeholder {
-                            padding-right: 15px;
-                            font-size: 16px;
-                        }
-                    }
-                    button {
-                        font-size: 14px;
-                        font-weight: bold;
-                        color: white;
-                        background-color: #1894FF;
-                        padding: 14px 18px 11px 24px;
-                        border: none;
-                        border-radius: 10px;
-                        position: absolute;
-                        top: 15%;
-                        left: 0;
-                    }
-                } 
             }
         }
     
