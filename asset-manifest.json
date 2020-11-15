@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/darmanito-app/static/css/main.e1c56564.chunk.css",
-    "main.js": "/darmanito-app/static/js/main.cd2f3322.chunk.js",
-    "main.js.map": "/darmanito-app/static/js/main.cd2f3322.chunk.js.map",
-    "runtime-main.js": "/darmanito-app/static/js/runtime-main.4ca5f2dd.js",
-    "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.4ca5f2dd.js.map",
-    "static/js/2.95aa0978.chunk.js": "/darmanito-app/static/js/2.95aa0978.chunk.js",
-    "static/js/2.95aa0978.chunk.js.map": "/darmanito-app/static/js/2.95aa0978.chunk.js.map",
-    "static/js/3.92de6c3b.chunk.js": "/darmanito-app/static/js/3.92de6c3b.chunk.js",
-    "static/js/3.92de6c3b.chunk.js.map": "/darmanito-app/static/js/3.92de6c3b.chunk.js.map",
+    "main.css": "/darmanito-app/static/css/main.a8db7691.chunk.css",
+    "main.js": "/darmanito-app/static/js/main.9b680379.chunk.js",
+    "main.js.map": "/darmanito-app/static/js/main.9b680379.chunk.js.map",
+    "runtime-main.js": "/darmanito-app/static/js/runtime-main.728aa54b.js",
+    "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.728aa54b.js.map",
+    "static/js/2.e7277ae7.chunk.js": "/darmanito-app/static/js/2.e7277ae7.chunk.js",
+    "static/js/2.e7277ae7.chunk.js.map": "/darmanito-app/static/js/2.e7277ae7.chunk.js.map",
+    "static/js/3.a10a99b5.chunk.js": "/darmanito-app/static/js/3.a10a99b5.chunk.js",
+    "static/js/3.a10a99b5.chunk.js.map": "/darmanito-app/static/js/3.a10a99b5.chunk.js.map",
     "index.html": "/darmanito-app/index.html",
-    "static/css/main.e1c56564.chunk.css.map": "/darmanito-app/static/css/main.e1c56564.chunk.css.map",
-    "static/js/2.95aa0978.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.95aa0978.chunk.js.LICENSE.txt",
+    "static/css/main.a8db7691.chunk.css.map": "/darmanito-app/static/css/main.a8db7691.chunk.css.map",
+    "static/js/2.e7277ae7.chunk.js.LICENSE.txt": "/darmanito-app/static/js/2.e7277ae7.chunk.js.LICENSE.txt",
     "static/media/Card Bacground.727ec2fc.svg": "/darmanito-app/static/media/Card Bacground.727ec2fc.svg",
     "static/media/Card-doc.fa832516.svg": "/darmanito-app/static/media/Card-doc.fa832516.svg",
     "static/media/Card-play.7cb6b114.svg": "/darmanito-app/static/media/Card-play.7cb6b114.svg",
@@ -47,9 +47,9 @@
     "static/media/support-icon.c4b4a6cb.svg": "/darmanito-app/static/media/support-icon.c4b4a6cb.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ca5f2dd.js",
-    "static/js/2.95aa0978.chunk.js",
-    "static/css/main.e1c56564.chunk.css",
-    "static/js/main.cd2f3322.chunk.js"
+    "static/js/runtime-main.728aa54b.js",
+    "static/js/2.e7277ae7.chunk.js",
+    "static/css/main.a8db7691.chunk.css",
+    "static/js/main.9b680379.chunk.js"
   ]
 }
