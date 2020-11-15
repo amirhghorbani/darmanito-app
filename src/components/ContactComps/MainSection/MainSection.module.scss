@@ -1,0 +1,17 @@
+@import '../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {
+    .section {
+        width: 85%;
+        margin: 60px auto;
+        @include flex(column-reverse, space-between, unset);
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .section {
+        width: 75%;
+        margin: 120px auto;
+        @include flex(row, space-between, unset);
+    }
+}

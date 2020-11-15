@@ -6,6 +6,8 @@ import PharMemShipPage from '../pages/PharMemShipPage';
 import {Switch, Route} from 'react-router-dom'
 import FaqPage from "./FaqPage";
 import TermsPage from "./TermsPage";
+import About from "./About";
+import Contact from "./Contact";
 
 
 
@@ -20,6 +22,8 @@ function MainLanding() {
           <Route path='/register_pharmacy' component={PharMemShipPage} />
           <Route path='/faq_page' component={FaqPage} />
           <Route path='/terms_page' component={TermsPage} />
+          <Route path='/about_page' component={About} />
+          <Route path='/contact_page' component={Contact} />
         </Switch>
       </MainLayout>
     </div>

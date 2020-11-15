@@ -1,0 +1,89 @@
+@import '../../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {
+    .form {
+        width: 100%;
+        height: 490px;
+
+        form {
+            width: 100%;
+            height: inherit;
+            @include flex(column, space-between, unset);
+            label {
+                @include flex(column, space-between, unset);
+                font-size: $pXs;
+                
+                input {
+                    margin-top: 10px;
+                    height: 46px;
+                    border-radius: 10px;
+                    border: 1px solid #D8D8D8;
+                }
+                textarea {
+                    margin-top: 10px;
+                    border: 1px solid #D8D8D8;
+                    height: 164px;
+                }
+            }
+            input[type=submit] {
+                width: 100%;
+                height: 52px;
+                border: 1px solid $primaryColor;
+                border-radius: 10px;
+                background-color: white;
+                color: $primaryColor;cursor: pointer;
+                @include pText(16px, bold, unset);
+
+                &:hover {
+                    background-color: $cloudyColor;
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .form {
+        width: 40%;
+        height: 490px;
+        
+        form {
+            width: 100%;
+            height: inherit;
+            @include flex(column, space-between, unset);
+            label {
+                @include flex(column, space-between, unset);
+                font-size: $pXs;
+                
+                input {
+                    width: 100%;
+                    margin-top: 10px;
+                    height: 46px;
+                    border-radius: 10px;
+                    border: 1px solid #D8D8D8;
+                }
+                textarea {
+                    margin-top: 10px;
+                    border: 1px solid #D8D8D8;
+                    height: 164px;
+                    resize: none;
+                }
+            }
+            input[type=submit] {
+                width: 100%;
+                height: 52px;
+                border: 1px solid $primaryColor;
+                border-radius: 10px;
+                background-color: white;
+                color: $primaryColor;cursor: pointer;
+                @include pText(16px, bold, unset);
+
+                &:hover {
+                    background-color: $cloudyColor;
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}

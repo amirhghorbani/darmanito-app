@@ -21,10 +21,10 @@ const dropDiv = (
           <Link to="/register_pharmacy">عضویت در داروخانه ها</Link>
         </li>
         <li>
-          <Link to="/about">درباره ما</Link>
+          <Link to="/about_page">درباره ما</Link>
         </li>
         <li>
-          <Link to="/contact">تماس با ما</Link>
+          <Link to="/contact_page">تماس با ما</Link>
         </li>
         <li>
           <Link to="/faq_page">سوالات متداول</Link>
@@ -71,13 +71,13 @@ class Header extends Component {
                 <Link to='/darmanito-app'>صفحه اصلی</Link>
               </li>
               <li>
-                <Link to="/about">درباره ما</Link>
+                <Link to="/about_page">درباره ما</Link>
               </li>
               <li>
-                <Link to="/contact">تماس با ما</Link>
+                <Link to="/contact_page">تماس با ما</Link>
               </li>
               <li>
-                <Link to={"/register_pharmacy"}>عضویت داروخانه ها</Link>
+                <Link to="/register_pharmacy">عضویت داروخانه ها</Link>
               </li>
             </ul>
           </nav>

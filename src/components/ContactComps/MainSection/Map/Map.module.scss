@@ -1,0 +1,195 @@
+@import '../../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {
+    .map {
+        width: 100%;
+        height: 450px;
+        .container {
+            width: 100%;
+            position: relative;  
+            .image {
+                img {
+                    // position: relative;
+                    width: 100%;
+                }
+            }
+            .mapContent {
+                position: absolute;
+                width: 100%;
+                max-width: 390px;
+                height: 219px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: $boxShadow;
+                right: 0;
+                top: 70%;
+                
+                .contentContainer {
+                    width: 90%;
+                    height: 170px;
+                    margin: 0 auto;
+                    @include flex(column, space-between, unset);
+                    .right {
+                        width: 100%;
+                        @include flex(row, space-between, unset);
+
+                        .email {
+                            @include flex(column, unset, unset);
+                        }
+                        .phone {
+                            @include flex(column, unset, unset);
+                        }
+
+                        h6 {
+                            @include pText(14px, bold, unset);
+                            color: $primaryColor;
+                            margin: 0;
+                        }
+                        p {
+                            @include pText(12px, lighter, unset);
+                        }
+                    }
+                    .left {
+                        width: 100%;
+                        @include flex(column, unset, unset);
+
+                        p {
+                            @include pText(14px, normal, 1.8rem);
+                        }
+                        p:last-child {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (min-width : 450px) {
+    .map {
+        height: 500px;
+        .container {
+            .image {
+                img {
+                    max-height: 500px;
+                }
+                
+            }
+            .mapContent {
+                right: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 550px) {
+        .map {
+            height: 600px;
+            .container {
+                .image {
+                    img {
+                        max-height: 500px;
+                    }
+                    
+                }
+                .mapContent {
+                    right: 40px;
+                }
+            }
+        }
+}
+
+@media screen and (min-width : 700px) {
+        .map {
+            height: 600px;
+            .container {
+                .image {
+                    img {
+                        max-height: 500px;
+                    }
+                    
+                }
+                .mapContent {
+                    right: 20%;
+                }
+            }
+        }
+}
+
+@media screen and (min-width: 1024px) {
+    .map {
+        width: 56%;
+        height: 490px;
+        .container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            .image {
+                width: 100%; 
+                img {
+                    
+                    min-width: 500px;
+                }
+            }
+            .mapContent {
+                position: absolute;
+                width: 100%;
+                max-width: 545px;
+                height: 170px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: none;
+                bottom: 5%;
+                right: 5%;
+                top: unset;
+               
+
+                .contentContainer {
+                    width: 90%;
+                    height: 170px;
+                    margin: 0 auto;
+                    @include flex(row, space-between, unset);
+                    
+
+                    .right {
+                        width: 50%;
+                        @include flex(column, unset, unset);
+
+                        .email {
+                            @include flex(column, unset, unset);
+                        }
+                        .phone {
+                            @include flex(column, unset, unset);
+                        }
+
+                        h6 {
+                            @include pText(16px, bold, unset);
+                            color: $primaryColor;
+                            margin: 0;
+                        }
+                        p {
+                            @include pText(16px, normal, unset);
+                        }
+                    }
+                    .left {
+                        width: 50%;
+                        @include flex(column, unset, unset);
+
+                        p {
+                            @include pText(16px, normal, 1.8rem);
+                        }
+                        p:last-child {
+                            margin-top: 0;
+                        }
+                    }
+                }
+                
+
+            }
+            
+        }
+    }
+
+}

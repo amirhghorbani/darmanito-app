@@ -42,8 +42,8 @@ function Footer() {
             <div className={styles.sec8__2}>
                 <p>صفحات درمانیتو</p>
                 <ul>
-                    <li><a href='#'>تماس باما</a></li>
-                    <li><a href='#'>درباره ما</a></li>
+                    <li><Link to='/contact_page'>تماس باما</Link></li>
+                    <li><Link to='/about_page'>درباره ما</Link></li>
                     <li><Link to='/faq_page'>سوالات متداول</Link></li>
                     <li><Link to='/terms_page'>قوانین و شرایط</Link></li>
                 </ul>
