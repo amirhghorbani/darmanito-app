@@ -45,7 +45,7 @@ function Footer() {
                     <li><a href='#'>تماس باما</a></li>
                     <li><a href='#'>درباره ما</a></li>
                     <li><Link to='/faq_page'>سوالات متداول</Link></li>
-                    <li><a href='#'>قوانین و شرایط</a></li>
+                    <li><Link to='/terms_page'>قوانین و شرایط</Link></li>
                 </ul>
             </div> 
         

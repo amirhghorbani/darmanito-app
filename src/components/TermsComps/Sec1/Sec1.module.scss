@@ -1,0 +1,150 @@
+@import '../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {
+    .sec1 {
+        width: 80%;
+        margin: 91px auto 0 auto;
+
+        h5 {
+            @include pText(14px, bold, 1.8rem);
+            color: $epiblueColor;
+
+            &::before {
+                @include beforeText;
+            }
+        }
+
+        .boxes {
+            width: 180%;
+            @include flex(row, space-between, unset);
+
+            .box {
+                margin: 43px 0 70px 0;
+                width: 23%;
+                max-width: 120px;
+                height: 120px;
+                max-height: 120px;
+                border-radius: 25px;
+                box-shadow: $boxShadow;
+                cursor: pointer;
+                @include flex(unset, center, center);
+                h4 {
+                    @include pText(14px, bold, 1.5rem);
+                    color: $epiblueColor;
+                    width: 70%;
+                    margin: 0 auto;
+                    text-align:center;
+                }
+            }
+            .deactive {
+                filter: grayscale(100%);
+                opacity: .7;
+
+                &:hover {
+                    filter: grayscale(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 650px) {
+    .sec1 {
+        width: 80%;
+        margin: 91px auto 0 auto;
+
+        h5 {
+            @include pText(14px, bold, 1.8rem);
+            color: $epiblueColor;
+
+            &::before {
+                @include beforeText;
+            }
+        }
+
+        .boxes {
+            width: 100%;
+            @include flex(row, space-between, unset);
+
+            .box {
+                margin: 43px 0 70px 0;
+                width: 23%;
+                max-width: 120px;
+                height: 120px;
+                max-height: 120px;
+                border-radius: 25px;
+                box-shadow: $boxShadow;
+                cursor: pointer;
+                @include flex(unset, center, center);
+                h4 {
+                    @include pText(14px, bold, 1.5rem);
+                    color: $epiblueColor;
+                    width: 70%;
+                    margin: 0 auto;
+                    text-align:center;
+                }
+            }
+            .deactive {
+                filter: grayscale(100%);
+                opacity: .7;
+
+                &:hover {
+                    filter: grayscale(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width : 1024px) {
+    .sec1 {
+        width: 75%;
+        margin: 91px auto 0 auto;
+
+        h5 {
+            @include pText(20px, bold, 1.8rem);
+            color: $epiblueColor;
+
+            &::before {
+                @include beforeText;
+            }
+        }
+
+        .boxes {
+            width: 90%;
+            margin: 0 auto;
+            @include flex(row, space-between, unset);
+
+            .box {
+                margin: 43px 0 70px 0;
+                width: 20%;
+                max-width: 160px;
+                height: 160px;
+                max-height: 160px;
+                border-radius: 25px;
+                box-shadow: $boxShadow;
+                cursor: pointer;
+                @include flex(unset, center, center);
+                h4 {
+                    @include pText(16px, bold, 2.5rem);
+                    color: $epiblueColor;
+                    width: 70%;
+                    margin: 0 auto;
+                    text-align:center;
+                }
+            }
+            .deactive {
+                filter: grayscale(100%);
+                opacity: .7;
+
+                &:hover {
+                    filter: grayscale(0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

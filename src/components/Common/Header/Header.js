@@ -30,7 +30,7 @@ const dropDiv = (
           <Link to="/faq_page">سوالات متداول</Link>
         </li>
         <li>
-          <Link to="">قوانین و شرایط</Link>
+          <Link to="/terms_page">قوانین و شرایط</Link>
         </li>
       </ul>
     </div>

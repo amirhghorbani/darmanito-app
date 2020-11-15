@@ -5,6 +5,7 @@ import PharMemShipPage from '../pages/PharMemShipPage';
 
 import {Switch, Route} from 'react-router-dom'
 import FaqPage from "./FaqPage";
+import TermsPage from "./TermsPage";
 
 
 
@@ -18,6 +19,7 @@ function MainLanding() {
           <Route exact path='/darmanito-app' component={MainPageComps} />
           <Route path='/register_pharmacy' component={PharMemShipPage} />
           <Route path='/faq_page' component={FaqPage} />
+          <Route path='/terms_page' component={TermsPage} />
         </Switch>
       </MainLayout>
     </div>
