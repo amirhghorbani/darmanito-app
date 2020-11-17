@@ -29,6 +29,7 @@ function FuncInput() {
   const modalShow = () => {
     setTimeout(() => {
       setShow(true)
+      setInput('')
     }, 2000);
   }
   const hideModal = () => {

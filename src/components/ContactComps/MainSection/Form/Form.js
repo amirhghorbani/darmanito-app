@@ -66,6 +66,14 @@ class Form extends Component {
     return formIsValid;
   }
 
+  clearState = () => {
+    this.setState({fields : {
+      name : '',
+      email : '',
+      textarea : ''
+    }})
+  }
+ 
   onSubmit = (event) => {
     event.preventDefault();
     if (this.handleValidation()) {
@@ -81,7 +89,7 @@ class Form extends Component {
 
   showModal = () => {
     setTimeout(() => {
-      this.setState({show : true})
+      this.setState({show : true},this.clearState())
     }, 2000);
     
   }
@@ -122,7 +130,7 @@ class Form extends Component {
               type="text"
               name="email"
               onChange={this.handleChange.bind(this, "email")}
-              value={this.state.fields["phone"]}
+              value={this.state.fields["email"]}
             />
             <span style={{ color: "red", marginTop: "5px" }}>
               {this.state.errors["email"]}

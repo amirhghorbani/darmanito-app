@@ -46,7 +46,7 @@ class Input extends Component {
 
   showModal = () => {
     setTimeout(() => {
-      this.setState({show : true})
+      this.setState({show : true, value : ''})
     }, 2000);
     
   }
