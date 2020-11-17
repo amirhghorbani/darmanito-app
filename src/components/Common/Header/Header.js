@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {BrowserRouter as Router, Route,  Link} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import styles from "../Header/Header.module.scss";
 
@@ -54,7 +54,7 @@ class Header extends Component {
   render() {
     return (
       <div className={styles.header}>
-          <div className={styles.items}>
+        <div className={styles.items}>
           <Link to="/darmanito-app">
             <img src={Logo} alt="header" />
           </Link>
@@ -68,10 +68,10 @@ class Header extends Component {
           <nav>
             <ul>
               <li>
-                <Link to='/darmanito-app'>صفحه اصلی</Link>
+                <Link to="/darmanito-app">صفحه اصلی</Link>
               </li>
               <li>
-                <Link to="/about_page">درباره ما</Link>
+                <Link to={{ pathname: "/about_page" }}>درباره ما</Link>
               </li>
               <li>
                 <Link to="/contact_page">تماس با ما</Link>
@@ -83,10 +83,10 @@ class Header extends Component {
           </nav>
           <button className={styles.download__btn}>دانلود درمانیتو</button>
         </div>
-        
-          {/* dropdown menu in mobile devices only below code */}
-        
-          {this.state.show ? dropDiv : null}
+
+        {/* dropdown menu in mobile devices only below code */}
+
+        {this.state.show ? dropDiv : null}
       </div>
     );
   }

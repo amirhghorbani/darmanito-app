@@ -13,10 +13,19 @@
                 width: 175%;
                 @include flex(row, space-between, unset);
                 margin-top: 41.5px;
+                .deactive {
+                    filter: grayscale(100%);
+                    opacity: .5;
+                }
 
                 .box {
                     @include boxing(100px, 100px);
                     @include flex(column,center, center);
+
+                    &:hover {
+                        opacity: 1;
+                        filter: grayscale(0);
+                    }
                     img {
                         width: 45px;
                         height: 43px;
@@ -24,10 +33,6 @@
                     p {
                         color: $epiblueColor;
                         font-size: $pXs;
-                    }
-                    .deactive {
-                        filter: grayscale(100%);
-                        opacity: .5;
                     }
                 }
 
@@ -110,6 +115,11 @@
                 .box {
                     @include boxing(160px, 160px);
                     @include flex(column, center, center);
+
+                    &:hover {
+                        opacity: 1;
+                        filter: grayscale(0);
+                    }
                     img {
                         width: 67px;
                         height: 58px;
@@ -118,10 +128,10 @@
                         color: $epiblueColor;
                         font-size: $pSm;
                     }
-                    .deactive {
-                        filter: grayscale(100%);
-                        opacity: .5;
-                    }
+                }
+                .deactive {
+                    filter: grayscale(100%);
+                    opacity: .7;
                 }
             }
 
