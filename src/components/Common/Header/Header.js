@@ -61,7 +61,7 @@ class Header extends Component {
           <a
             className={styles.dropIcon}
             onClick={this.iconchangeHandler}
-            href="#"
+            href="hichja"
           >
             <img src={this.state.isClicked ? DropDown : DropUp} alt="header" />
           </a>
