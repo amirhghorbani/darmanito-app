@@ -5,7 +5,7 @@ function ScrollTop(props) {
     const {pathname} = useLocation();
 
     useEffect(() => {
-        if (pathname != "/darmanito-app") window.scrollTo(0, 0);
+        if (pathname !== "/darmanito-app") window.scrollTo(0, 0);
     }, [pathname]);
 
     return props.children;

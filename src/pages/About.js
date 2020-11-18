@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react'
-import AboutComps from '../components/AboutComps/AboutComps'
+import React, { Fragment } from "react";
+import AboutComps from "../components/AboutComps/AboutComps";
 
 function About() {
-    return (
-        <Fragment>
-            <AboutComps />
-        </Fragment>
-    )
+  return (
+    <Fragment>
+      <AboutComps />
+    </Fragment>
+  );
 }
 
-export default About
+export default About;

@@ -4,50 +4,45 @@ import styles from "./Form.module.scss";
 
 function Form() {
 
-    const [checked, setChecked] = useState(false);
-
-    const checkHandler = () => {
-        setChecked(!checked);
-    }
-
   return (
     <div className={styles.container}>
       <form>
+
         <div>
           <label>نام و نام خانوادگی موسس</label>
-          <input type="text" />
+          <input type="text" name='fullname' />
         </div>
 
         <div>
           <label>
             شماره نظام پزشکی <span style={{ color: "#1894FF" }}>(فقط عدد)</span>
           </label>
-          <input type="text" />
+          <input type="text" name='id' />
         </div>
 
         <div>
           <label>نام داروخانه / فروشگاه</label>
-          <input type="text" />
+          <input type="text" name='storename' />
         </div>
 
         <div>
           <label>شماره داروخانه</label>
-          <input type="text" />
+          <input type="text" name='phone' />
         </div>
 
         <div>
           <label>شهر</label>
-          <input type="text" />
+          <input type="text" name='city' />
         </div>
 
         <div>
           <label>منطقه</label>
-          <input type="text" />
+          <input type="text" name='area'/>
         </div>
 
         <div style={{ flexGrow: "1", width: "100%" }}>
           <label>آدرس دقیق</label>
-          <input style={{ width: "100%" }} type="text" />
+          <input style={{ width: "100%" }} type="text" name='address' />
         </div>
 
         <div>
@@ -85,7 +80,7 @@ function Form() {
         </div>
 
         <div>
-            <input type='file' className={styles.file_input} />
+            <input type='file' className={styles.file_input} name='file' />
         </div>
 
         <div>

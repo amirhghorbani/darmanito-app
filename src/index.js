@@ -4,7 +4,7 @@ import './assets/sass/index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
-import ScrollTop from './containers/ScrollTop/ScrollTop';
+import ScrollTop from './utils/ScrollTop/ScrollTop';
 
 ReactDOM.render(
   <React.StrictMode>
