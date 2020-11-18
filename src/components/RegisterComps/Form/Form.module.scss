@@ -1,0 +1,147 @@
+@import '../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {}
+
+
+@media screen and (min-width : 1024px) {
+    .container {
+        width: 75%;
+        margin: 81px auto;
+
+        form {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            div {
+                width: 48%;
+                display: flex;
+                flex-direction: column;
+                 label {
+                    width: 100%;
+                    font-size: 12px;
+                    margin-top: 20px;
+                }
+                input {
+                    width: 100%;
+                    height: 46px;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                    border: 1px solid #D8D8D8;
+                        &:focus {
+                            border: 1px solid $primaryColor;
+                            border-radius: 10px;
+                        }
+                }
+                .check {
+                    display: flex;
+                    flex-direction: row;
+                    width: 60%;
+                    margin-top: 20px;
+                    justify-content: space-between;
+                    .daily {
+                        width: 100px;
+                        height: 40px;
+                        display: flex;
+                        flex-direction: row;
+                        border: 1px solid #D8D8D8;
+                        border-radius: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        .radio {
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 0;
+                        }
+                        span {
+                            font-size: 12px;
+                            margin-right: 10px;
+                        }
+                    }
+                    .allday {
+                        width: 120px;
+                        height: 40px;
+                        display: flex;
+                        flex-direction: row;
+                        border: 1px solid #D8D8D8;
+                        border-radius: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        .radio {
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 0;
+                        }
+                        span {
+                            font-size: 12px;
+                            margin-right: 10px;
+                        }
+                    }
+
+                }
+                .hours {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-between;
+                    .firstTime {
+                        width: 45%;
+                    }
+                    .secondTime {
+                        width: 45%;
+                    }
+                }
+                .file_input::-webkit-file-upload-button {
+                    visibility: hidden;
+                }
+                .file_input::before {
+                    content: 'آپلود عکس داروخانه';
+                    width: 170px;
+                    height: 43px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: white;
+                    border: 1px solid $primaryColor;
+                    border-radius: 10px;
+                    outline: none;
+                    white-space: nowrap;
+                    -webkit-user-select: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: $primaryColor;
+                }
+                .file_input {
+                    width: 43%;
+                    margin-top: 36.5px;
+                    border: none;
+                }
+                .file_input:hover::before {
+                    background-color: $cloudyColor;
+                }
+                .subBtn {
+                    width: 170px;
+                    margin-top: 36.5px;
+                    background-color: $primaryColor;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    float: left;
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+
+                    &:hover {
+                        background-color: $cloudyColor;
+                        color: $primaryColor;
+                    }
+                }
+            }
+           
+        }
+    }
+}
