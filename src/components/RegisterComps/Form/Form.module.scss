@@ -257,9 +257,10 @@
                     color: $primaryColor;
                 }
                 .file_input {
-                    width: 100%;
+                    width: 172px;
                     margin-top: 36.5px;
                     border: none;
+                    border-radius: 10px;
                 }
                 .file_input:hover::before {
                     background-color: $cloudyColor;

@@ -3,11 +3,11 @@ import Header from '../Common/Header/Header';
 import Footer from '../Common/Footer/Footer';
 import Support from '../Common/Support/Support';
 
-function MainLayout(props) {
+function MainLayout({children}) {
     return (
         <Fragment>
             <Header />
-            {props.children}
+            {children}
             <Support />
             <Footer />
         </Fragment>
