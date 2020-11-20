@@ -11,7 +11,9 @@ function Form() {
   const {register, handleSubmit, errors  } = useForm();
   const onSubmit = data => {
     console.log(data);
-    history.push('/result_page')
+    setTimeout(() => {
+      history.push('/result_page', { data })
+    }, 2000);
   };
   const dangerStyle = {color : "red", fontSize : "12px", margin : '0'};
   const borderDanger = {border : '1px solid red'};
@@ -19,7 +21,6 @@ function Form() {
   return (
     <div className={styles.container}>
       <form onSubmit={handleSubmit(onSubmit)}>
-
         <div>
           <label>نام و نام خانوادگی موسس</label>
           <input type="text" name='fullname' style={errors.fullname ? borderDanger : null} ref={register({required : true,minLength : 5})} />

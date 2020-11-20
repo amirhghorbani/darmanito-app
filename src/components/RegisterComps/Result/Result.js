@@ -1,63 +1,92 @@
-import React from 'react'
-import styles from './Result.module.scss';
+import React, { useState } from "react";
+import styles from "./Result.module.scss";
+import { useHistory, useLocation } from "react-router-dom";
+import Modal from '../../../containers/Modal/Modal';
 
 function Result() {
-    return (
-        <div className={styles.container}>
-            <div className={styles.header}>
-                <div className={styles.photo}>
-                    <img src='' alt />
-                </div>
-                <div className={styles.headerText}>
-                    <p>نام داروخانه</p>
-                    <p>نام داروخانه</p>
-                </div>
-            </div>
-            <div className={styles.content}>
-                <div>
-                    <p>نام داروخانه</p>
-                    <p>داروخانه رسالت</p>
-                </div>
-                <div>
-                    <p>شماره داروخانه</p>
-                    <p>۰۲۱-۴۴۲۱۹۶۷۱</p>
-                </div>
-                <div>
-                    <p>شهر</p>
-                    <p>تهران</p>
-                </div>
-                <div>
-                    <p>منطقه</p>
-                    <p>جیحون</p>
-                </div>
-                <div>
-                    <p>ساعت کاری</p>
-                    <p>شبانه روزی</p>
-                </div>
-            </div>
-            <div className={styles.address}>
-                <p>آدرس دقیق</p>
-                <p>تهران ، میدان امام حسین ، خیابان دماوند ،  کوچه حسینی</p>
-            </div>
-        <hr />
+  const [show, setShow] = useState(false);
+  const location = useLocation();
+  const history = useHistory();
+  const { data } = location.state;
+  const backHandler = () => {
+    history.push('/register_page')
+  }
+  const showModal = () => {
+    setTimeout(() => {
+      setShow(true);
+    }, 2000);
+    
+  }
+  const hideModal = () => {
+    setShow(false);
+    history.push('/register_pharmacy');
+  }
+  const submitHandler = () => {
+   showModal();
+  }
 
-            <div className={styles.footer}>
-                <div>
-                    <p>نام و نام خانوادگی موسس</p>
-                    <p>ایرج حسینی</p>
-                </div>
-                <div>
-                    <p>پزشکی</p>
-                    <p>د-۳۲۴۵</p>
-                </div>
-            </div>
-        
-            <div className={styles.btns}>
-                <button>ویرایش اطلاعات</button>
-                <button>تکمیل ثبت نام</button>
-            </div>
+  return (
+   <div className={styles.container}>
+      <Modal header='ثبت نام موفق'
+          text='اطلاعات شما ثبت گردید'
+          show={show} 
+          handleClose={hideModal} />
+      <div className={styles.header}>
+        <div className={styles.photo}>
+          <img
+            src="https://cdn.iconscout.com/icon/premium/png-256-thumb/pharmacy-1733124-1475501.png"
+            width="80px"
+            alt="store"
+          />
         </div>
-    )
+        <div className={styles.headerText}>
+          <p>نام داروخانه</p>
+          <p>{data.storename}</p>
+        </div>
+      </div>
+      <div className={styles.content}>
+        <div>
+          <p>نام داروخانه</p>
+          <p>{data.storename}</p>
+        </div>
+        <div>
+          <p>شماره داروخانه</p>
+          <p>{data.phone}</p>
+        </div>
+        <div>
+          <p>شهر</p>
+          <p>{data.city}</p>
+        </div>
+        <div>
+          <p>منطقه</p>
+          <p>{data.area}</p>
+        </div>
+        <div>
+          <p>ساعت کاری</p>
+          <p>{data.time}</p>
+        </div>
+      </div>
+      <div className={styles.address}>
+        <p>آدرس دقیق</p>
+        <p>{data.address}</p>
+      </div>
+      <hr />
+      <div className={styles.footer}>
+        <div>
+          <p>نام و نام خانوادگی موسس</p>
+          <p>{data.fullname}</p>
+        </div>
+        <div>
+          <p>شماره پزشکی</p>
+          <p>{data.id}</p>
+        </div>
+      </div>
+      <div className={styles.btns}>
+        <button onClick={backHandler}>ویرایش اطلاعات</button>
+        <button onClick={submitHandler}>تکمیل ثبت نام</button>
+      </div>
+    </div>
+  );
 }
 
-export default Result
+export default Result;
