@@ -276,6 +276,7 @@
                     cursor: pointer;
                     border: none;
                     outline: none;
+                    align-self: flex-end;
 
                     &:hover {
                         background-color: $cloudyColor;

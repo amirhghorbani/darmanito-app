@@ -9,7 +9,10 @@ function Result() {
   const history = useHistory();
   const { data } = location.state;
   const backHandler = () => {
-    history.push('/register_page')
+    history.push({
+      pathname : '/register_page'
+    });
+    console.log(data)
   }
   const showModal = () => {
     setTimeout(() => {
@@ -18,8 +21,8 @@ function Result() {
     
   }
   const hideModal = () => {
+    history.push({pathname : '/darmanito-app'});
     setShow(false);
-    history.push('/register_pharmacy');
   }
   const submitHandler = () => {
    showModal();
@@ -82,7 +85,7 @@ function Result() {
         </div>
       </div>
       <div className={styles.btns}>
-        <button onClick={backHandler}>ویرایش اطلاعات</button>
+        <button type='button' onClick={backHandler}>ویرایش اطلاعات</button>
         <button onClick={submitHandler}>تکمیل ثبت نام</button>
       </div>
     </div>

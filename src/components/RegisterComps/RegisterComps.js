@@ -5,14 +5,14 @@ import Result from './Result/Result'
 
 function RegisterComps() {
     return (
-        <Fragment>
-            <Router>
-                <Switch>
-                    <Route  path='/register_page' component={Form} />
-                    <Route  path='/result_page' component={Result} /> 
-                </Switch>
-            </Router>
-        </Fragment>
+            <Fragment>
+                <Router>
+                    <Switch>
+                        <Route  path='/register_page' component={Form} />
+                        <Route  path='/result_page' component={Result} /> 
+                    </Switch>
+                </Router>
+            </Fragment>
     )
 }
 

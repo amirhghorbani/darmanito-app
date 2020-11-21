@@ -7,6 +7,7 @@
 
         .header {
             width: 100%;
+            max-width: 250px;
             @include flex(row, space-around, center);
             .photo {
                 width: 110px;
@@ -24,6 +25,7 @@
         }
         .footer {
             width: 100%;
+            max-width: 300px;
             @include flex(row, space-between,unset)
         }
         .btns {
@@ -62,7 +64,8 @@
         margin: 0 auto;
 
         .header {
-            width: 30%;
+            width: 40%;
+            max-width: 220px;
             @include flex(row, space-between, unset);
             .photo {
                 width: 110px;
@@ -75,15 +78,21 @@
             }
         }
         .content {
-            
-            @include flex(row, space-between, unset)
+            @include flex(row, space-between, unset);
+            margin-top: 30px;
+        }
+        .address {
+            margin: 30px 0;
         }
         .footer {
             width: 40%;
-            @include flex(row, space-between,unset)
+            @include flex(row, space-between,unset);
+            margin-top: 30px;
         }
         .btns {
-            width: 50%;
+            width: 70%;
+            max-width: 380px;
+            margin-top: 30px;
             @include flex(row, space-between, unset);
             button:first-child {
                 width: 170px;
