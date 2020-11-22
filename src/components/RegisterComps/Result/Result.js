@@ -1,39 +1,42 @@
 import React, { useState } from "react";
 import styles from "./Result.module.scss";
 import { useHistory, useLocation } from "react-router-dom";
-import Modal from '../../../containers/Modal/Modal';
+import Modal from "../../../containers/Modal/Modal";
 
 function Result() {
   const [show, setShow] = useState(false);
   const location = useLocation();
   const history = useHistory();
   const { data } = location.state;
+
   const backHandler = () => {
     history.push({
-      pathname : '/register_page'
+      pathname: "/register_page",
+      data,
     });
-    console.log(data)
-  }
+  };
+
   const showModal = () => {
     setTimeout(() => {
       setShow(true);
     }, 2000);
-    
-  }
+  };
   const hideModal = () => {
-    history.push({pathname : '/darmanito-app'});
     setShow(false);
-  }
+    history.push("/darmanito-app");
+  };
   const submitHandler = () => {
-   showModal();
-  }
+    showModal();
+  };
 
   return (
-   <div className={styles.container}>
-      <Modal header='ثبت نام موفق'
-          text='اطلاعات شما ثبت گردید'
-          show={show} 
-          handleClose={hideModal} />
+    <div className={styles.container}>
+      <Modal
+        header="ثبت نام موفق"
+        text="اطلاعات شما ثبت گردید"
+        show={show}
+        handleClose={hideModal}
+      />
       <div className={styles.header}>
         <div className={styles.photo}>
           <img
@@ -85,7 +88,9 @@ function Result() {
         </div>
       </div>
       <div className={styles.btns}>
-        <button type='button' onClick={backHandler}>ویرایش اطلاعات</button>
+        <button type="button" onClick={backHandler}>
+          ویرایش اطلاعات
+        </button>
         <button onClick={submitHandler}>تکمیل ثبت نام</button>
       </div>
     </div>
