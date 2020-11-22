@@ -12,8 +12,8 @@ function Section3() {
             <p>خدمت مورد نظر خود را برای ثبت نام انتخاب کنید</p>
 
             <div className={styles.content}>
-                <ContentBox image={HealthTwo} title='داروخانه' />
-                <ContentBox image={PhoneShop} title='فروشگاه آرایشی و بهداشتی' />
+                <ContentBox image={HealthTwo} title='داروخانه' to='/register_page' />
+                <ContentBox image={PhoneShop} title='فروشگاه آرایشی و بهداشتی' to='/register2_page' />
             </div>
             
         </div>

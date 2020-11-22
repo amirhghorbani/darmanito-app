@@ -9,6 +9,7 @@ import Terms from "./Terms";
 import About from "./About";
 import Contact from "./Contact";
 import Register from "./Register";
+import Register2 from "./Register2";
 
 
 
@@ -26,6 +27,7 @@ function MainLanding() {
           <Route path='/about_page' component={About} />
           <Route path='/contact_page' component={Contact} />
           <Route path='/register_page' component={Register} />
+          <Route path='/register2_page' component={Register2} />
         </Switch>
       </MainLayout>
     </div>

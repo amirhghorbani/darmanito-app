@@ -1,0 +1,114 @@
+@import '../../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {
+    .container {
+    width: 80%;
+    margin: 70px auto;
+
+    .resultContent {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        div {
+            width: 50%;
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    .btns {
+        margin-top: 30px;
+        width: 100%;
+        @include flex(column, space-between, center);
+
+        button:first-child {
+            width: 170px;
+            height: 52px;
+            border: 1px solid $primaryColor;
+            color: $primaryColor;
+            background-color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            &:hover {
+                background-color: $cloudyColor;
+            }
+        }
+        button:last-child {
+            width: 170px;
+            height: 52px;
+            border: none;
+            color: white;
+            background-color: $primaryColor;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-right: 0;
+            margin-top: 10px;
+            cursor: pointer;
+            &:hover {
+                background-color: $cloudyColor;
+                color: $primaryColor;
+            }
+        }
+    }
+}}
+
+
+
+@media screen and (min-width : 1024px) {
+    .container {
+        width: 75%;
+        margin: 70px auto;
+
+        .resultContent {
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                width: 33%;
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+        .btns {
+            margin-top: 30px;
+            width: 100%;
+            @include flex(row, unset, unset);
+
+            button:first-child {
+                width: 170px;
+                height: 52px;
+                border: 1px solid $primaryColor;
+                color: $primaryColor;
+                background-color: white;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 8px;
+                cursor: pointer;
+                &:hover {
+                    background-color: $cloudyColor;
+                }
+            }
+            button:last-child {
+                width: 170px;
+                height: 52px;
+                border: none;
+                color: white;
+                background-color: $primaryColor;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 8px;
+                margin-right: 16px;
+                margin-top: 0;
+                cursor: pointer;
+                &:hover {
+                    background-color: $cloudyColor;
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}

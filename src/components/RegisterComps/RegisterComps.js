@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Form from "./Form/Form";
 import Result from "./Result/Result";
 
+
 function RegisterComps() {
   return (
     <Fragment>

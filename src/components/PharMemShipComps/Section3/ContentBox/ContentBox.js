@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from '../Section3.module.scss';
 
 
-function ContentBox({ image, title }) {
+function ContentBox({ image, title, to }) {
     return (
         <div className={styles.box}>
             <div className={styles.container}>
@@ -15,7 +15,7 @@ function ContentBox({ image, title }) {
                     <p>مایل هستم فقط بعنوان داروخانه فعالیت کنم و در بخش صرفا سفارش دارو با عکس نسخه به بیماران کمک رسانی کنم </p>
                 </div>
                 <div className={styles.btn}>
-                    <Link to='/register_page'><button>ثبت نام </button></Link>
+                    <Link to={to}><button>ثبت نام </button></Link>
                 </div>
             </div>  
         </div>

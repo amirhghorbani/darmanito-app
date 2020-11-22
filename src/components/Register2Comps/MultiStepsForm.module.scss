@@ -1,0 +1,138 @@
+@import '../../assets/sass/styles';
+
+@media screen and (min-width : 320px) {
+    .container {
+        width: 80%;
+        margin : 50px auto;
+
+        p {
+            margin-bottom: 70px;
+            font-size: 12px;
+        }
+
+        div {
+            width: 100%;
+            @include flex(column, space-between, unset);
+            
+
+            label {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+            input {
+                width: 100%;
+                height: 46px;
+                margin-bottom: 30px;
+                border: 1px solid #D8D8D8;
+                border-radius: 10px;
+            }
+        }
+        input[type=submit] {
+            width: 170px;
+            height: 52px;
+            background-color: $primaryColor;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+
+            &:hover {
+                background-color: $cloudyColor;
+                color: $primaryColor;
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .container {
+        width: 75%;
+        margin : 50px auto;
+        
+
+        p {
+            margin-bottom: 70px;
+            font-size: 16px;
+        }
+        div {
+            width: 100%;
+            @include flex(column, space-between, unset);
+            label {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+            input {
+                width: 40%;
+                height: 46px;
+                margin-bottom: 30px;
+                border: 1px solid #D8D8D8;
+                border-radius: 10px;
+            }
+            .check {
+                display: flex;
+                flex-direction: row;
+                width: 25%;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                .daily {
+                    width: 100px;
+                    height: 40px;
+                    display: flex;
+                    flex-direction: row;
+                    border: 1px solid #D8D8D8;
+                    border-radius: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    .radio {
+                        width: 16px;
+                        height: 16px;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                    span {
+                        font-size: 12px;
+                        margin-right: 10px;
+                    }
+                }
+                .allday {
+                    width: 120px;
+                    height: 40px;
+                    display: flex;
+                    flex-direction: row;
+                    border: 1px solid #D8D8D8;
+                    border-radius: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    .radio {
+                        width: 16px;
+                        height: 16px;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                    span {
+                        font-size: 12px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            
+        }
+        
+        input[type=submit] {
+            width: 170px;
+            height: 52px;
+            background-color: $primaryColor;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+
+            &:hover {
+                background-color: $cloudyColor;
+                color: $primaryColor;
+            }
+        }
+    }
+}
