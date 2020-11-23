@@ -9,76 +9,87 @@
             margin-bottom: 70px;
             font-size: 12px;
         }
-
-        div {
+        form {
             width: 100%;
-            @include flex(column, space-between, unset);
-            margin-bottom: 30px;
-            
-
-            label {
-                font-size: 12px;
-                margin-bottom: 10px;
-            }
-            input {
+            height: 470px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div {
                 width: 100%;
-                height: 46px;
-                border: 1px solid #D8D8D8;
-                border-radius: 10px;
-            }
-            .check {
-                display: flex;
-                flex-direction: row;
-                width: 100%;
-                max-width: 300px;
-                justify-content: space-between;
-                margin-bottom: 20px;
-                .daily {
-                    width: 100px;
-                    height: 40px;
-                    display: flex;
-                    flex-direction: row;
+                @include flex(column, space-between, unset);
+                label {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
+                span {
+                    font-size: 10px;
+                    color: red;
+                }
+                .danger {
+                    border: 1px solid red;
+                }
+                .success {
+                    border: 1px solid $epiblueColor;
+                }
+                input {
+                    width: 100%;
+                    height: 46px;
                     border: 1px solid #D8D8D8;
                     border-radius: 10px;
-                    justify-content: center;
-                    align-items: center;
-                    .radio {
-                        width: 16px;
-                        height: 16px;
-                        margin-top: 0;
-                        margin-bottom: 0;
-                    }
-                    span {
-                        font-size: 12px;
-                        margin-right: 10px;
-                        color: black;
-                    }
                 }
-                .allday {
-                    width: 120px;
-                    height: 40px;
+                .check {
                     display: flex;
                     flex-direction: row;
-                    border: 1px solid #D8D8D8;
-                    border-radius: 10px;
-                    justify-content: center;
-                    align-items: center;
-                    .radio {
-                        width: 16px;
-                        height: 16px;
-                        margin-top: 0;
-                        margin-bottom: 0;
+                    width: 100%;
+                    max-width: 300px;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    .daily {
+                        width: 100px;
+                        height: 40px;
+                        display: flex;
+                        flex-direction: row;
+                        border: 1px solid #D8D8D8;
+                        border-radius: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        .radio {
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-size: 12px;
+                            margin-right: 10px;
+                            color: black;
+                        }
                     }
-                    span {
-                        font-size: 12px;
-                        margin-right: 10px;
-                        color: black;
+                    .allday {
+                        width: 120px;
+                        height: 40px;
+                        display: flex;
+                        flex-direction: row;
+                        border: 1px solid #D8D8D8;
+                        border-radius: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        .radio {
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-size: 12px;
+                            margin-right: 10px;
+                            color: black;
+                        }
                     }
                 }
             }
-        }
-        
-        input[type=submit] {
+            input[type=submit] {
             width: 170px;
             height: 52px;
             background-color: $primaryColor;
@@ -93,6 +104,7 @@
                 background-color: $cloudyColor;
                 color: $primaryColor;
             }
+            }
         }
     }
 }
@@ -105,83 +117,87 @@
             margin-bottom: 70px;
             font-size: 16px;
         }
-        div {
-            width: 100%;
-            @include flex(column, space-between, unset);
-            margin-bottom: 30px;
-            label {
-                font-size: 12px;
-                margin-bottom: 10px;
-            }
-            input {
-                width: 40%;
-                height: 46px;
-                border: 1px solid #D8D8D8;
-                border-radius: 10px; 
-            }
-            .danger {
-                border: 1px solid red;
-            }
-            .success {
-                border: 1px solid $epiblueColor;
-            }
-            span {
-                color: red;
-                font-size: 12px;
-            }
-            .check {
-                display: flex;
-                flex-direction: row;
-                width: 30%;
-                max-width: 250px;
-                justify-content: space-between;
-                .daily {
-                    width: 100px;
-                    height: 40px;
-                    display: flex;
-                    flex-direction: row;
+        form {
+            width: 40%;
+            height: 470px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            div {
+                width: 100%;
+                @include flex(column, space-between, unset);
+                label {
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                }
+                span {
+                    font-size: 12px;
+                    color: red;
+                }
+                input {
+                    width: 100%;
+                    height: 46px;
                     border: 1px solid #D8D8D8;
                     border-radius: 10px;
-                    justify-content: center;
-                    align-items: center;
-                    .radio {
-                        width: 16px;
-                        height: 16px;
-                        margin-top: 0;
-                        margin-bottom: 0;
-                    }
-                    span {
-                        font-size: 12px;
-                        margin-right: 10px;
-                        color: black;
-                    }
                 }
-                .allday {
-                    width: 120px;
-                    height: 40px;
+                .danger {
+                    border: 1px solid red;
+                }
+                .success {
+                    border: 1px solid $epiblueColor;
+                }
+                .check {
                     display: flex;
                     flex-direction: row;
-                    border: 1px solid #D8D8D8;
-                    border-radius: 10px;
-                    justify-content: center;
-                    align-items: center;
-                    .radio {
-                        width: 16px;
-                        height: 16px;
-                        margin-top: 0;
-                        margin-bottom: 0;
+                    width: 100%;
+                    max-width: 300px;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+                    .daily {
+                        width: 100px;
+                        height: 40px;
+                        display: flex;
+                        flex-direction: row;
+                        border: 1px solid #D8D8D8;
+                        border-radius: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        .radio {
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-size: 12px;
+                            margin-right: 10px;
+                            color: black;
+                        }
                     }
-                    span {
-                        font-size: 12px;
-                        margin-right: 10px;
-                        color: black;
+                    .allday {
+                        width: 120px;
+                        height: 40px;
+                        display: flex;
+                        flex-direction: row;
+                        border: 1px solid #D8D8D8;
+                        border-radius: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        .radio {
+                            width: 16px;
+                            height: 16px;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                        span {
+                            font-size: 12px;
+                            margin-right: 10px;
+                            color: black;
+                        }
                     }
                 }
             }
-            
-        }
-        
-        input[type=submit] {
+            input[type=submit] {
             width: 170px;
             height: 52px;
             background-color: $primaryColor;
@@ -190,10 +206,12 @@
             border-radius: 8px;
             font-size: 16px;
             font-weight: bold;
+            cursor: pointer;
 
             &:hover {
                 background-color: $cloudyColor;
                 color: $primaryColor;
+            }
             }
         }
     }

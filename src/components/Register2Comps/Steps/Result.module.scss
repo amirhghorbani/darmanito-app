@@ -11,8 +11,12 @@
         flex-wrap: wrap;
         div {
             width: 50%;
-            p {
+            p:first-child {
                 font-size: 12px;
+                font-weight: lighter;
+            }
+            p:last-child {
+                font-size: 14px;
             }
         }
     }
@@ -64,23 +68,27 @@
         @include flex(row, space-between, center);
 
         .rigth {
-            width: 65%;
+            width: 55%;
             .resultContent {
-                width: 55%;
+                width: 50%;
                 margin: 0 auto;
                 display: flex;
                 flex-wrap: wrap;
                 div {
                     width: 33%;
                     margin-bottom: 20px;
-                    p {
+                    p:first-child {
+                        font-size: 12px;
+                        font-weight: lighter;
+                    }
+                    p:last-child {
                         font-size: 16px;
                     }
                 }
             }
             .btns {
                 margin-top: 30px;
-                width: 55%;
+                width: 50%;
                 margin-left: auto;
                 margin-right: auto;
                 @include flex(row, center, unset);
@@ -119,13 +127,13 @@
             }
         }
         .left {
-            width: 50%;
-            height: 600px;
+            width: 45%;
+            height: 650px;
             background-color:#E6F3FF;
             @include flex(row, center, center);
 
             .pharmInformation {
-                width: 50%;
+                width: 80%;
                 height: 371px;
                 @include flex(column, space-between, unset);
             }

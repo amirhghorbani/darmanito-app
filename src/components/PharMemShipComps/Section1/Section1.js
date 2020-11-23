@@ -17,9 +17,9 @@ function Section1() {
             </div>
             
             <div className={styles.pharmInformation}>
-                <PharmBoxInfo />
-                <PharmBoxInfoSm />
-                <PharmBoxInfoSm attribute='flex-end'/>
+                <PharmBoxInfo name='نام داروخانه شما' time='شبانه روزی' address='درمانیتو ، سرویس داروخانه ، داروخانه شما' />
+                <PharmBoxInfoSm name='نام داروخانه شما' time='شبانه روزی' address='درمانیتو ، سرویس داروخانه ، داروخانه شما'/>
+                <PharmBoxInfoSm name='نام داروخانه شما' time='شبانه روزی' address='درمانیتو ، سرویس داروخانه ، داروخانه شما' attribute='flex-end'/>
             </div>
         </div>
     )

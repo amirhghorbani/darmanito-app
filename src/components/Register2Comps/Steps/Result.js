@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import Modal from '../../../containers/Modal/Modal';
 import styles from './Result.module.scss'
+import PharmBoxInfo from '../../PharMemShipComps/Section1/PharmBoxInfo/PharmBoxInfo';
+import PharmBoxInfoSm from '../../PharMemShipComps/Section1/PharmBoxInfoSm/PharmBoxInfoSm';
 
 export const Result = ({formData, navigation}) => {
     const {fullName, storeName, id, phone, city, area, address, time} = formData;
@@ -65,7 +67,11 @@ export const Result = ({formData, navigation}) => {
 
             </div>
             <div className={styles.left}>
-               
+                <div className={styles.pharmInformation}>
+                    <PharmBoxInfo name={storeName} time={time} address={address}/>
+                    <PharmBoxInfoSm  name={storeName} time={time} address={address} />
+                    <PharmBoxInfoSm name={storeName} time={time} address={address} attribute='flex-end'/>
+                </div>
             </div>
         </div>
     )

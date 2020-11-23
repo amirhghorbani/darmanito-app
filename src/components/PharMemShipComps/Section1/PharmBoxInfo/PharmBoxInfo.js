@@ -4,7 +4,7 @@ import MapMarkerIcon  from '../../../../assets/images/map-marker.svg';
 
 import styles from './PharmBoxInfo.module.scss'
 
-function PharmBoxInfo() {
+function PharmBoxInfo({name, address, time}) {
     return (
        <Fragment>
            <div className={styles.pharmBox}>
@@ -12,14 +12,14 @@ function PharmBoxInfo() {
                    <img src={personIcon} alt='icon' />
                </div>
                <div className={styles.pharmText}>
-                    <h4>نام داروخانه شما</h4>
+                    <h4>{name}</h4>
                     <div className={styles.text}>
                         <img src={MapMarkerIcon} alt='icon' />
-                        <p>درمانیتو ، سرویس داروخانه ، داروخانه شما</p>
+                        <p>{address}</p>
                     </div>
                </div>
                <div className={styles.time}>
-                   <p>شبانه روزی</p>
+                   <p>{time}</p>
                </div>
            </div>
        </Fragment>
