@@ -59,56 +59,78 @@
 
 @media screen and (min-width : 1024px) {
     .container {
-        width: 75%;
-        margin: 70px auto;
+        width: 100%;
+        margin: 70px 0;
+        @include flex(row, space-between, center);
 
-        .resultContent {
-            width: 50%;
-            display: flex;
-            flex-wrap: wrap;
-            div {
-                width: 33%;
-                p {
-                    font-size: 16px;
+        .rigth {
+            width: 65%;
+            .resultContent {
+                width: 55%;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                div {
+                    width: 33%;
+                    margin-bottom: 20px;
+                    p {
+                        font-size: 16px;
+                    }
                 }
             }
-        }
-        .btns {
-            margin-top: 30px;
-            width: 100%;
-            @include flex(row, unset, unset);
-
-            button:first-child {
-                width: 170px;
-                height: 52px;
-                border: 1px solid $primaryColor;
-                color: $primaryColor;
-                background-color: white;
-                font-size: 16px;
-                font-weight: bold;
-                border-radius: 8px;
-                cursor: pointer;
-                &:hover {
-                    background-color: $cloudyColor;
-                }
-            }
-            button:last-child {
-                width: 170px;
-                height: 52px;
-                border: none;
-                color: white;
-                background-color: $primaryColor;
-                font-size: 16px;
-                font-weight: bold;
-                border-radius: 8px;
-                margin-right: 16px;
-                margin-top: 0;
-                cursor: pointer;
-                &:hover {
-                    background-color: $cloudyColor;
+            .btns {
+                margin-top: 30px;
+                width: 55%;
+                margin-left: auto;
+                margin-right: auto;
+                @include flex(row, center, unset);
+    
+                button:first-child {
+                    width: 170px;
+                    height: 52px;
+                    border: 1px solid $primaryColor;
                     color: $primaryColor;
+                    background-color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $cloudyColor;
+                    }
+                }
+                button:last-child {
+                    width: 170px;
+                    height: 52px;
+                    border: none;
+                    color: white;
+                    background-color: $primaryColor;
+                    font-size: 16px;
+                    font-weight: bold;
+                    border-radius: 8px;
+                    margin-right: 16px;
+                    margin-top: 0;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $cloudyColor;
+                        color: $primaryColor;
+                    }
                 }
             }
         }
+        .left {
+            width: 50%;
+            height: 600px;
+            background-color:#E6F3FF;
+            @include flex(row, center, center);
+
+            .pharmInformation {
+                width: 50%;
+                height: 371px;
+                @include flex(column, space-between, unset);
+            }
+        }
+
+        
     }
 }

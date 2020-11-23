@@ -15,11 +15,11 @@ export const Result = ({formData, navigation}) => {
       };
       const submitHandler = () => {
         showModal();
-        
       };
     
     return (
         <div className={styles.container}>
+            <div className={styles.rigth}>
             <div className={styles.resultContent}>
                 <div>
                     <p>نام داروخانه</p>
@@ -46,7 +46,7 @@ export const Result = ({formData, navigation}) => {
                     <p>{address}</p>
                 </div>
 
-                <hr style={{width : "100%", borderColor : 'lightgrey'}}/>
+                <hr style={{width : "100%", borderColor : 'black', opacity : '.1'}}/>
 
                 <div>
                     <p>نام و نام خانوادگی موسس</p>
@@ -62,6 +62,11 @@ export const Result = ({formData, navigation}) => {
                 <button onClick={submitHandler}>تکمیل ثبت نام</button>
             </div>
             <Modal header='ثبت نام موفق' text="اطلاعات با موفقیت ثبت گردید" show={show} handleClose={hideModal} />
+
+            </div>
+            <div className={styles.left}>
+               
+            </div>
         </div>
     )
 }
