@@ -4,6 +4,76 @@
     .container {
     width: 80%;
     margin: 70px auto;
+    @include flex(column-reverse, space-between, center);
+
+    .rigth {
+        width: 100%;
+        .resultContent {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                width: 50%;
+                margin-bottom: 20px;
+                p:first-child {
+                    font-size: 12px;
+                    font-weight: lighter;
+                }
+                p:last-child {
+                    font-size: 16px;
+                }
+            }
+        }
+        .btns {
+            margin-top: 30px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            @include flex(row, center, unset);
+
+            button:first-child {
+                width: 170px;
+                height: 52px;
+                border: 1px solid $primaryColor;
+                color: $primaryColor;
+                background-color: white;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 8px;
+                cursor: pointer;
+                &:hover {
+                    background-color: $cloudyColor;
+                }
+            }
+            button:last-child {
+                width: 170px;
+                height: 52px;
+                border: none;
+                color: white;
+                background-color: $primaryColor;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 8px;
+                margin-right: 16px;
+                margin-top: 0;
+                cursor: pointer;
+                &:hover {
+                    background-color: $cloudyColor;
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .left {
+        width: 100%;
+        @include flex(row, center, center);
+        .pharmInformation {
+            width: 100%;
+            height: 120px;
+            @include flex(column, space-between, unset);
+        }
+    }
 
     .resultContent {
         width: 100%;
@@ -57,7 +127,139 @@
             }
         }
     }
-}}
+    }
+}
+
+@media screen and (min-width : 500px) {
+    .container {
+    width: 80%;
+    margin: 70px auto;
+    @include flex(column-reverse, space-between, center);
+
+    .rigth {
+        width: 100%;
+        .resultContent {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                width: 50%;
+                margin-bottom: 20px;
+                p:first-child {
+                    font-size: 12px;
+                    font-weight: lighter;
+                }
+                p:last-child {
+                    font-size: 16px;
+                }
+            }
+        }
+        .btns {
+            margin-top: 30px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            @include flex(row, center, unset);
+
+            button:first-child {
+                width: 170px;
+                height: 52px;
+                border: 1px solid $primaryColor;
+                color: $primaryColor;
+                background-color: white;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 8px;
+                cursor: pointer;
+                &:hover {
+                    background-color: $cloudyColor;
+                }
+            }
+            button:last-child {
+                width: 170px;
+                height: 52px;
+                border: none;
+                color: white;
+                background-color: $primaryColor;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 8px;
+                margin-right: 16px;
+                margin-top: 0;
+                cursor: pointer;
+                &:hover {
+                    background-color: $cloudyColor;
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .left {
+        width: 100%;
+        height: 350px;
+        @include flex(row, center, center);
+        .pharmInformation {
+            width: 100%;
+            height: 320px;
+            @include flex(column, space-between, unset);
+        }
+    }
+
+    .resultContent {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        div {
+            width: 50%;
+            p:first-child {
+                font-size: 12px;
+                font-weight: lighter;
+            }
+            p:last-child {
+                font-size: 14px;
+            }
+        }
+    }
+    .btns {
+        margin-top: 30px;
+        width: 100%;
+        @include flex(column, space-between, center);
+
+        button:first-child {
+            width: 170px;
+            height: 52px;
+            border: 1px solid $primaryColor;
+            color: $primaryColor;
+            background-color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            &:hover {
+                background-color: $cloudyColor;
+            }
+        }
+        button:last-child {
+            width: 170px;
+            height: 52px;
+            border: none;
+            color: white;
+            background-color: $primaryColor;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-right: 0;
+            margin-top: 10px;
+            cursor: pointer;
+            &:hover {
+                background-color: $cloudyColor;
+                color: $primaryColor;
+            }
+        }
+    }
+    }
+}
 
 
 
@@ -70,7 +272,7 @@
         .rigth {
             width: 55%;
             .resultContent {
-                width: 50%;
+                width: 65%;
                 margin: 0 auto;
                 display: flex;
                 flex-wrap: wrap;
