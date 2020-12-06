@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/darmanito-app/static/css/main.31bc15ac.chunk.css",
-    "main.js": "/darmanito-app/static/js/main.456ad7fd.chunk.js",
-    "main.js.map": "/darmanito-app/static/js/main.456ad7fd.chunk.js.map",
+    "main.js": "/darmanito-app/static/js/main.92a1cbc5.chunk.js",
+    "main.js.map": "/darmanito-app/static/js/main.92a1cbc5.chunk.js.map",
     "runtime-main.js": "/darmanito-app/static/js/runtime-main.ccd0abf1.js",
     "runtime-main.js.map": "/darmanito-app/static/js/runtime-main.ccd0abf1.js.map",
     "static/js/2.4bb83378.chunk.js": "/darmanito-app/static/js/2.4bb83378.chunk.js",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.ccd0abf1.js",
     "static/js/2.4bb83378.chunk.js",
     "static/css/main.31bc15ac.chunk.css",
-    "static/js/main.456ad7fd.chunk.js"
+    "static/js/main.92a1cbc5.chunk.js"
   ]
 }
