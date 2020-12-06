@@ -13,7 +13,6 @@ function Boxes() {
             <Box className={`${styles.box} ${styles.deactive}`} src={MarketImg} text='فروشگاه' />
             <Box className={`${styles.box} ${styles.deactive}`} src={StethoscopeImg} text='ویزیت آنلاین' />
             <Box className={`${styles.box} ${styles.deactive}`} src={StethoscopeImg} text='ویزیت آنلاین' />
-
         </div>
     )
 }

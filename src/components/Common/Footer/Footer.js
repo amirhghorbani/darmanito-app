@@ -23,19 +23,19 @@ function Footer() {
                 </div>
 
                 <div className={styles.sec__8__icons}>
-                    <a href=''><img src={LinkedInLogo} alt='icon' /></a>
-                    <a href=''><img src={FacebookLogo} alt='icon' /></a>
-                    <a href=''><img src={InstaLogo} alt='icon' /></a>
+                    <a href='/'><img src={LinkedInLogo} alt='icon' /></a>
+                    <a href='/'><img src={FacebookLogo} alt='icon' /></a>
+                    <a href='/'><img src={InstaLogo} alt='icon' /></a>
                 </div>
             </div>
         
             <div className={styles.sec8__2}>
                 <p>خدمات درمانیتو</p>
                 <ul>
-                    <li><a href='#'>داروخانه آنلاین</a></li>
-                    <li><a href='#'>فروشگاه آنلاین</a></li>
-                    <li><a href='#'>ویزیت آنلاین</a></li>
-                    <li><a href='#'>پرونده پزشکی</a></li>
+                    <li><a href='/'>داروخانه آنلاین</a></li>
+                    <li><a href='/'>فروشگاه آنلاین</a></li>
+                    <li><a href='/'>ویزیت آنلاین</a></li>
+                    <li><a href='/'>پرونده پزشکی</a></li>
                 </ul>
             </div>        
 
@@ -52,11 +52,11 @@ function Footer() {
             <div className={styles.sec8__btn}>
                 <p>دانلود درمانیتو</p>
                 <div className={styles.btns}>
-                    <a href='#'>
-                        <img src={sibDlImg} alt='image'/>
+                    <a href='/'>
+                        <img src={sibDlImg} alt='apple'/>
                     </a>
-                    <a href='#'>
-                        <img src={bazarDlImg} alt='image'/>
+                    <a href='/'>
+                        <img src={bazarDlImg} alt='bazar'/>
                     </a>
                 </div>
             </div>

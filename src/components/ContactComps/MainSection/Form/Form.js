@@ -44,7 +44,7 @@ class Form extends Component {
         !(
           lastAtPos < lastDotPos &&
           lastAtPos > 0 &&
-          fields["email"].indexOf("@@") == -1 &&
+          fields["email"].indexOf("@@") === -1 &&
           lastDotPos > 2 &&
           fields["email"].length - lastDotPos > 2
         )

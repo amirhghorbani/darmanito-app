@@ -7,7 +7,7 @@ function Map() {
             <div className={styles.map}>
                 <div className={styles.container}>
                     <div className={styles.image}>
-                        <img src={MapImg} alt='image' />
+                        <img src={MapImg} alt='map' />
                     </div>
                     <div className={styles.mapContent}>
                         <div className={styles.contentContainer}>

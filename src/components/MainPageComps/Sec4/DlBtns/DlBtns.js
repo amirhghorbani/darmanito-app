@@ -8,8 +8,8 @@ import styles from '../Sec4.module.scss'
 function DlBtns() {
     return (
         <div className={styles.download__btns}>
-            <a href=''><img src={BazarBtn} /></a>
-            <a href=''><img src={SibBtn} /></a>
+            <a href='/'><img src={BazarBtn} alt='bazar'/></a>
+            <a href='/'><img src={SibBtn} alt='apple' /></a>
         </div>
     )
 }

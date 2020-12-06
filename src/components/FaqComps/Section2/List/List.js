@@ -23,7 +23,7 @@ function List() {
         <div className={styles.list}>
         <div className={styles.content}>
           <div className={styles.question}>
-            <a onClick={toggleShower}>
+            <a href='/' onClick={toggleShower}>
               <img src={iconSrc} alt="icon" />
             </a>
             <p>هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟</p>

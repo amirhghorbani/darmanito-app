@@ -50,8 +50,13 @@ function Form() {
 
         <div>
           <label>شهر</label>
-          <Controller as='input' name='city' control={control} style={errors.city ? borderDanger : null} rules={{required : true}} defaultValue={data === undefined ? '' : data.city}  />
+          <select defaultValue={data === undefined ? '' : data.city} style={errors.city ? borderDanger : null} name='city' ref={register({required : true})}>
+            <option value="تهران">تهران</option>
+            <option value="البرز">البرز</option>
+          </select>
           {errors.city && <p style={dangerStyle}>شهر معتبر نیست</p>}
+          {/* <Controller as='select' name='city' control={control} style={errors.city ? borderDanger : null} rules={{required : true}} defaultValue={data === undefined ? '' : data.city}  />
+          {errors.city && <p style={dangerStyle}>شهر معتبر نیست</p>} */}
         </div>
 
         <div>

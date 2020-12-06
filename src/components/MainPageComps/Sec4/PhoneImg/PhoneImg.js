@@ -5,7 +5,7 @@ import styles from '../Sec4.module.scss'
 function PhoneImg() {
     return (
         <div className={styles.phone__img}>
-            <img src={PhonePic} />
+            <img src={PhonePic} alt='phone'/>
         </div>
     )
 }
