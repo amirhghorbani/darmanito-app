@@ -45,10 +45,10 @@ class Header extends Component {
 
   iconchangeHandler = (event) => {
     event.preventDefault();
-    this.setState({
+    this.setState( prevState => ({
       isClicked: !this.state.isClicked,
       show: !this.state.show,
-    });
+    }));
   };
 
   render() {
