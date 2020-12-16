@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-import { BrowserRouter as Route, Router, Link } from "react-router-dom";
+import {
+  BrowserRouter as Route,
+  Router,
+  Link,
+} from "react-router-dom";
 
 import styles from "../Header/Header.module.scss";
 
@@ -45,9 +49,9 @@ class Header extends Component {
 
   iconchangeHandler = (event) => {
     event.preventDefault();
-    this.setState( prevState => ({
-      isClicked: !this.state.isClicked,
-      show: !this.state.show,
+    this.setState((prevState) => ({
+      isClicked: !prevState.isClicked,
+      show: !prevState.show,
     }));
   };
 

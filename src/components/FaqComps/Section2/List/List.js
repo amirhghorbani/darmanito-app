@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PlusIcon from "../../../../assets/images/plus-icon.svg";
 import MinusIcon from '../../../../assets/images/minus-icon.svg';
 import styles from '../Section2.module.scss';
+import { Link } from 'react-router-dom';
 
 function List() {
 
@@ -9,7 +10,7 @@ function List() {
     const [iconSrc, setstateIconSrc] = useState(PlusIcon);
 
     const toggleShower = () => {
-      setshowContent(!showContent);
+      setshowContent(prevContent => !prevContent);
       showContent ? setstateIconSrc(PlusIcon) : setstateIconSrc(MinusIcon);
     };
   
@@ -23,9 +24,9 @@ function List() {
         <div className={styles.list}>
         <div className={styles.content}>
           <div className={styles.question}>
-            <a href='/' onClick={toggleShower}>
+            <Link href='' onClick={toggleShower}>
               <img src={iconSrc} alt="icon" />
-            </a>
+            </Link>
             <p>هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟</p>
           </div>
           {showContent ? Div : null}

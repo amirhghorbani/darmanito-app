@@ -32,10 +32,10 @@ function Footer() {
             <div className={styles.sec8__2}>
                 <p>خدمات درمانیتو</p>
                 <ul>
-                    <li><a href='/'>داروخانه آنلاین</a></li>
-                    <li><a href='/'>فروشگاه آنلاین</a></li>
-                    <li><a href='/'>ویزیت آنلاین</a></li>
-                    <li><a href='/'>پرونده پزشکی</a></li>
+                    <li><Link  href='/'>داروخانه آنلاین</Link></li>
+                    <li><Link href='/'>فروشگاه آنلاین</Link></li>
+                    <li><Link href='/'>ویزیت آنلاین</Link></li>
+                    <li><Link href='/'>پرونده پزشکی</Link></li>
                 </ul>
             </div>        
 
@@ -52,12 +52,12 @@ function Footer() {
             <div className={styles.sec8__btn}>
                 <p>دانلود درمانیتو</p>
                 <div className={styles.btns}>
-                    <a href='/'>
+                    <Link href='/'>
                         <img src={sibDlImg} alt='apple'/>
-                    </a>
-                    <a href='/'>
+                    </Link>
+                    <Link href='/'>
                         <img src={bazarDlImg} alt='bazar'/>
-                    </a>
+                    </Link>
                 </div>
             </div>
         
