@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import {
-  BrowserRouter as Route,
-  Router,
-  Link,
+  Link
 } from "react-router-dom";
 
 import styles from "../Header/Header.module.scss";

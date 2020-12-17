@@ -1,14 +1,14 @@
-import {useEffect} from 'react'
-import { useLocation } from 'react-router-dom';
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function ScrollTop(props) {
-    const {pathname} = useLocation();
+  const { pathname } = useLocation();
 
-    useEffect(() => {
-        if (pathname !== "/darmanito-app") window.scrollTo(0, 0);
-    }, [pathname]);
+  useEffect(() => {
+    if (pathname !== "/darmanito-app") window.scrollTo(0, 0);
+  }, [pathname]);
 
-    return props.children;
+  return props.children;
 }
 
 export default ScrollTop;
